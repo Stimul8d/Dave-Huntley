@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 
+const basePath = import.meta.env.BASE_URL;
 const posts = await getCollection("blog", ({ data }) => {
   return !data.draft && data.publishDate < new Date();
 });
@@ -18,7 +19,7 @@ posts.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
         {posts.map((post) => (
           <article>
             <h2 class="text-2xl font-semibold mb-2">
-              <a href={`/blog/${post.slug}`} class="hover:text-blue-600">
+              <a href={`${basePath}/blog/${post.slug}`} class="hover:text-blue-600">
                 {post.data.title}
               </a>
             </h2>
