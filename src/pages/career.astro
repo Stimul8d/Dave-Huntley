@@ -1,0 +1,175 @@
+---
+import Container from "@components/container.astro";
+import Layout from "@layouts/Layout.astro";
+
+const skills = {
+  row1: {
+    "Leadership & Delivery": [
+      { skill: "Technical Leadership & Strategy", years: 15 },
+      { skill: "Team Building & Mentoring", years: 12 },
+      { skill: "Stakeholder Management", years: 12 },
+      { skill: "Agile & Lean", years: 14 },
+      { skill: "Digital Transformation", years: 10 }
+    ],
+    "Engineering": [
+      { skill: "Cloud Architecture", years: 10 },
+      { skill: "Distributed Systems", years: 12 },
+      { skill: "Event-Driven Design", years: 8 },
+      { skill: "IoT & Edge Computing", years: 6 },
+      { skill: "Performance at Scale", years: 12 }
+    ]
+  },
+  row2: {
+    "Cloud & AI": [
+      { skill: "AWS, GCP & Azure", years: 10 },
+      { skill: "Machine Learning & AI", years: 4 },
+      { skill: "Data Engineering", years: 6 },
+      { skill: "Serverless & FaaS", years: 6 },
+      { skill: "Real-time Analytics", years: 8 }
+    ],
+    "Languages": [
+      { skill: "C#, F#, VB.NET", years: 17 },
+      { skill: "JavaScript/TypeScript/Node", years: 12 },
+      { skill: "Python", years: 8 },
+      { skill: "Go, Erlang", years: 6 },
+      { skill: "Java, C, Elm", years: 5 }
+    ]
+  }
+};
+---
+
+<Layout title="Career History - Dave Huntley">
+  <Container>
+    <div class="max-w-3xl mx-auto py-16">
+      <h1 class="text-4xl font-bold mb-12">Career History</h1>
+      
+      <div class="space-y-16">
+        <div class="relative pl-8 border-l-2 border-slate-200">
+          <div class="absolute w-4 h-4 bg-black rounded-full -left-[9px] top-1"></div>
+          <div>
+            <h2 class="text-2xl font-bold">Chief Technology Officer</h2>
+            <p class="text-slate-600 mb-2">Distributed.com • 2024 - Present</p>
+            <p class="text-lg mb-4">Leading Product Development, Data & Analytics, Software Engineering and Continuous Improvement teams.</p>
+          </div>
+        </div>
+
+        <div class="relative pl-8 border-l-2 border-slate-200">
+          <div class="absolute w-4 h-4 bg-black rounded-full -left-[9px] top-1"></div>
+          <div>
+            <h2 class="text-2xl font-bold">Technical Director → Continuous Improvement Director</h2>
+            <p class="text-slate-600 mb-2">Distributed.com • 2022 - 2024</p>
+            <p class="text-lg mb-4">Led technical strategy and drove enterprise-wide transformation initiatives.</p>
+          </div>
+        </div>
+
+        <div class="relative pl-8 border-l-2 border-slate-200">
+          <div class="absolute w-4 h-4 bg-black rounded-full -left-[9px] top-1"></div>
+          <div>
+            <h2 class="text-2xl font-bold">Contract Technical Lead → Senior Technical Lead</h2>
+            <p class="text-slate-600 mb-2">Distributed.com • 2020 - 2022</p>
+            <p class="text-lg mb-4">Led development teams and technical delivery, focusing on scaling engineering practices.</p>
+          </div>
+        </div>
+
+        <div class="relative pl-8 border-l-2 border-slate-200">
+          <div class="absolute w-4 h-4 bg-black rounded-full -left-[9px] top-1"></div>
+          <div>
+            <h2 class="text-2xl font-bold">Senior Software Developer</h2>
+            <p class="text-slate-600 mb-2">Camden Technologies (Foodhub) • Oct 2020 - Jan 2021</p>
+            <p class="text-lg mb-4">Led migration services for major food delivery platform. Scaled from startup to processing millions of orders.</p>
+          </div>
+        </div>
+
+        <div class="relative pl-8 border-l-2 border-slate-200">
+          <div class="absolute w-4 h-4 bg-black rounded-full -left-[9px] top-1"></div>
+          <div>
+            <h2 class="text-2xl font-bold">Head of Software Development</h2>
+            <p class="text-slate-600 mb-2">Anpriot Ltd • 2017 - 2020</p>
+            <p class="text-lg mb-4">Bootstrapped a software development department from scratch. Built IoT cloud solutions for modern parking operations.</p>
+          </div>
+        </div>
+
+        <div class="relative pl-8 border-l-2 border-slate-200">
+          <div class="absolute w-4 h-4 bg-black rounded-full -left-[9px] top-1"></div>
+          <div>
+            <h2 class="text-2xl font-bold">Technical Engineering Manager → DevOps Manager</h2>
+            <p class="text-slate-600 mb-2">Ticketmaster • 2015 - 2017</p>
+            <p class="text-lg mb-4">Led platform migration to AWS and managed ticketing systems for 120 Premier League clubs. Drove 80% improvement in mobile performance.</p>
+          </div>
+        </div>
+
+        <div class="relative pl-8 border-l-2 border-slate-200">
+          <div class="absolute w-4 h-4 bg-black rounded-full -left-[9px] top-1"></div>
+          <div>
+            <h2 class="text-2xl font-bold">Software Development Team Lead</h2>
+            <p class="text-slate-600 mb-2">Bet365 • 2014 - 2015</p>
+            <p class="text-lg mb-4">Built real-time systems handling 15M concurrent users. Managed World Cup and Grand National platforms.</p>
+          </div>
+        </div>
+
+        <div class="relative pl-8 border-l-2 border-slate-200">
+          <div class="absolute w-4 h-4 bg-black rounded-full -left-[9px] top-1"></div>
+          <div>
+            <h2 class="text-2xl font-bold">Senior Consultant → Head of Development</h2>
+            <p class="text-slate-600 mb-2">Mutual Vision Technologies • 2010 - 2014</p>
+            <p class="text-lg mb-4">Turned around a failed outsourced project in 12 months. Led Agile transformation that brought chaotic projects under control.</p>
+          </div>
+        </div>
+
+        <div class="relative pl-8 border-l-2 border-slate-200">
+          <div class="absolute w-4 h-4 bg-black rounded-full -left-[9px] top-1"></div>
+          <div>
+            <h2 class="text-2xl font-bold">Graduate → Senior Developer</h2>
+            <p class="text-slate-600 mb-2">Galleria RTS • 2006 - 2010</p>
+            <p class="text-lg mb-4">Cut my teeth on enterprise retail systems. Progressed from graduate to senior in under 4 years.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-24">
+        <h2 class="text-3xl font-bold mb-12">Core Competencies</h2>
+        <div class="space-y-16">
+          <div class="grid md:grid-cols-2 gap-16">
+            {Object.entries(skills.row1).map(([category, items]) => (
+              <div>
+                <h3 class="text-2xl font-bold mb-6">{category}</h3>
+                <ul class="space-y-4">
+                  {items.map(({ skill, years }) => (
+                    <li class="text-slate-600">
+                      <div class="flex justify-between items-center">
+                        <span>{skill}</span>
+                        <span class="text-sm font-medium bg-slate-100 px-2 py-1 rounded">
+                          {years}y
+                        </span>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+          
+          <div class="grid md:grid-cols-2 gap-16">
+            {Object.entries(skills.row2).map(([category, items]) => (
+              <div>
+                <h3 class="text-2xl font-bold mb-6">{category}</h3>
+                <ul class="space-y-4">
+                  {items.map(({ skill, years }) => (
+                    <li class="text-slate-600">
+                      <div class="flex justify-between items-center">
+                        <span>{skill}</span>
+                        <span class="text-sm font-medium bg-slate-100 px-2 py-1 rounded">
+                          {years}y
+                        </span>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </Container>
+</Layout>
