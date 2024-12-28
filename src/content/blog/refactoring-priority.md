@@ -1,8 +1,10 @@
 ---
 title: "Why Refactoring Should Be Your Priority"
 publishDate: "2024-12-28"
+category: "Engineering Excellence"
+tags: ["refactoring", "code quality", "technical debt", "software design"]
+summary: "Why unclear code is killing your productivity and what to do about it"
 draft: false
-tags: ["refactoring", "software development", "code quality", "technical debt"]
 ---
 
 Developers come to work each day in the hope of refactoring. Yep! Every developer reading this that has worked with crumby code is nodding their head right now. I'll explain why that is but also I want to make the case that it is absolutely in the interest of an organisation to prioritise refactoring in to every iteration/thing you do. 
