@@ -3,43 +3,69 @@ title: "From Values to Velocity"
 publishDate: "2023-12-18"
 category: "Leadership & Transformation"
 tags: ["agile", "software development", "process", "transformation"]
-summary: "From radical movement to corporate buzzword - how we took a revolution in software development and turned it into yet another system of control. A frank look at where agile went wrong."
+summary: "We took a revolution in software development and turned it into another system of control. Here's how agile lost its soul, and what we can do about it."
 readingTime: 5
 draft: false
 ---
 
-The agile manifesto was written in 2001. That is 15 years ago! With the amount and rate of change our industry has undergone in that time, has our understanding and application of those ideas held true to the original goal? No really, has it? Does Scrum really value 'People and interactions over processes and tools'? Not in a lot of organisations. Some, but not many.
+Every job listing wants "experience in an Agile setting". But what the fuck does that even mean anymore?
 
-## Agile was a Step Change
+Twenty years ago, agile was a radical response to broken software development. We were treating developers like replaceable cogs, following plans off cliffs, and lying to customers about what we could deliver.
 
-I wasn't in software back then. I was working in factories or moving heavy things on building sites. Agile still wasn't 'a thing' when I started writing code for a living though so I remember when it took hold and why it was so important.
+Then the dot-com bubble burst, and suddenly pretending everything was fine wasn't working anymore. We needed something better.
 
-Most of us knew that things were being routinely screwed up for us, by things we couldn't control. We were treated like shit (resources) a lot of the time, our opinions were regularly ignored and plans were blindly followed because plans were more important than results. Some organisations could be lifeless, threatening and mercenary. What's worse is we all sat back and took it because we didn't know any different.
+## The Revolution That Was
 
-And then the bubble burst. I don't remember clearly enough whether it lined up with the dot-com bubble but it was close.
+A group of developers proposed something revolutionary: what if we actually valued:
+- Working software over endless documentation
+- Real collaboration over rigid contracts
+- Customer needs over internal politics
+- Adapting to reality over following a plan
 
-Shit got serious. Companies all around the world were affected. We couldn't carry on lying to our customers, ignoring their needs, disregarding professional opinions and pretending it was okay. It wasn't okay! We were losing money hand-over-fist and the software world descended into what seemed like panic and chaos.
+It wasn't just a new process. It was a complete rejection of how software was being built. And for a while, it worked brilliantly.
 
-In the wake of this grand realisation, a small group of radical thinking software developers, proposed a better way of working. One where people mattered. One where working code was the only currency. One where customers needs were heard, understood and met. One where we didn't pretend we had everything under control.
+## How We Killed It
 
-This was a very different world and everyone rejoiced. The systems-of-work we used to get things done were no longer the insular, opinion driven myopia we had become so indoctrinated by. The war on ignorance though, had not been won. Our next battle would be with ourselves.
+Fast forward to today. We've managed to take a movement about valuing humans and turned it into velocity metrics and story point velocity targets. Well done, us.
 
-## We Made a Rod For Our Own Back
+The same managers who used to control us with Gantt charts now control us with sprint burndowns. The only difference is they're speaking our language while they do it.
 
-Practically every job listing in the software industry these days expects "experience in an Agile setting". 'Big A' agile vs 'little A' agile aside, what the fuck does that even mean? Do we know? Do they know? Does that mean Scrum? Maybe. Does it mean the Kanban method? Probably not but it might.
+Want to spot zombie agile? Look for these red flags:
+- Sprints that look suspiciously like mini-waterfalls
+- People obsessing over the "right way" to do story points
+- Velocity being used as a performance metric
+- Scrum being treated as an unchangeable religion
 
-What it means for most teams today, is a standardised and codified way of working, regardless of context. So much so, that questions about the right way of using story points or whether you can have multiple product backlogs, are commonplace. How did things go so wrong? We have stopped questioning things.
+If any of this sounds familiar, you've been had.
 
-The same people who clung to old traditions when the world was transforming around them have learned our language, and they are using it against us. They took our ideas and subverted them into another system of control. Have you completed as many story points this sprint as you did last sprint? Why not? If you seriously don't know why, you should study statistics a little. If your sprints can be laid out in sequence, like a Gantt chart, you've been sucker punched with a clever (and probably unintentional) slight of hand.
+## The Death of Learning
 
-## Learning: A Good Idea
+The core of agile was simple: try something, see if it works, adjust based on what you learn. Deming figured this out in the 1950s with PDCA (plan-do-check-act).
 
-Back at the start, agile was a good, no, great idea! It was an adjective. We studied the problem we were trying to solve, made a quick-and-dirty plan and tested our assumptions. Sometimes we were right but mostly, we were at least a little bit wrong. So armed with this new information, we changed our plan and tried again. In the end, we got it right enough to make a success of whatever it was we were trying to do. We thought we were being clever but I was later to find out that Demming had figured that out in the fifties! He called it the PDCA (plan-check-do-act) loop.
+But we've replaced learning with orthodoxy. Teams spend more time debating whether something is "true Scrum" than asking if Scrum is even helping them deliver better software.
 
-Crucially, we assumed that our assumptions would be wrong because, you know, real-world shit!
+Here's the thing about good ideas: they have a shelf life. The moment you stop questioning them, they start rotting.
 
-Today, barely anyone dares to question whether Scrum is good for us. I do have some respect for what it does but to not even question it's validity is cargo-cult of the highest order and we are smarter than that! Good ideas have a shelf-life. You have to keep learning.
+## What Actually Matters
 
-## Back to the start
+Want to know if you're really doing agile? Forget the ceremonies and ask:
 
-It's sad but inevitable that good ideas run out of steam. Agile isn't dead but if we want it to have a future, we need to return to its roots. Treat expert professionals as such, focus heavily on the software, understand your customers needs and never assume you're right.
+1. Are your developers treated like experts or resources?
+2. Is your software actually working?
+3. Do you understand what your customers need?
+4. Can you change direction when you're wrong?
+
+If you answered no to any of these, all your daily standups and sprint reviews are just theatre.
+
+## The Way Forward
+
+Agile isn't dead, but it needs to get back to its roots:
+
+1. Trust your professionals
+2. Build working software
+3. Talk to your customers
+4. Accept that you're probably wrong about something
+
+Everything else is just process porn.
+
+And the next time someone asks about your "agile experience", ask them what they think that means. Their answer will tell you everything you need to know about whether you want to work there.

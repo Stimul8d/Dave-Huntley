@@ -3,55 +3,63 @@ title: "Autonomy, Mastery, Purpose"
 publishDate: "2023-10-15"
 category: "Leadership & Transformation"
 tags: ["agile", "team building", "motivation", "organisational change"]
-summary: "Dan Pink nailed it with his theory on what drives us. Here's why most agile transformations fail, and what actually drives team performance - hint: it's not your process."
+summary: "Dan Pink nailed what drives us. Here's why most agile transformations miss the point, and what actually drives team performance - hint: it's not your process."
 readingTime: 5
 draft: false
 ---
 
-If you haven't read [the book](https://www.danpink.com/books/drive/) or watched [the TED talk](https://www.ted.com/talks/dan_pink_the_puzzle_of_motivation?subtitle=en), go and do that immediately. You won't regret it.
+A decade ago, Dan Pink wrote [Drive](https://www.danpink.com/books/drive/) and gave [one of the most important TED talks](https://www.ted.com/talks/dan_pink_the_puzzle_of_motivation?subtitle=en) about what motivates us at work. He nailed it then, and it's even more relevant now.
 
-I'm going to summarise my thoughts and experience on that topic here.
+Most agile transformations completely miss his point. We get so caught up in the excitement of sprint planning, story points, and burndown charts that we forget what actually drives performance: basic human psychology.
 
-One of the biggest shames about many agile transformation attempts is that they miss the point **entirely**. I've made this mistake, and I suspect that most brave enough to try have done the same.
+Your business isn't made of processes and frameworks. It's made of people. And people need three things to thrive: autonomy, mastery, and purpose.
 
-With all the excitement of backlog grooming, relative estimation, burndown charts and everything else you suddenly need to know, we understandably have a habit of not tackling the bigger issues.
+## The Process Obsession
 
-I'm talking about the trickier, more *human* problems, that when solved, offer the greatest rewards. The kinds of rewards that live in the absolute **core** of agile, and what it is meant to achieve.
+Every week I sit through another two-hour meeting where someone explains how changing our process will magically fix everything. New governance frameworks. Better metrics. Tighter controls.
 
-All those 'ceremonies' and 'artifacts' are great tools to help us work better as a team, but they're just tools. Aren't we supposed to favour 'Individuals and Interactions' after all?
- 
-## People First...
-Whatever flavour of agile you might prefer, remember to have respect for people and appreciate that your business is ***literally made out of them***. When the people are successful, so too is the organisation.
+It's madness, really. We spend more time obsessing over burndown charts than we do thinking about the humans who are supposed to be burning things down.
 
-I'll take that one step further and say that the health & fitness of an organisation is directly related to the engagement & happiness of its employees. I wonder if that's related to [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law) in some way?
+Don't get me wrong - good processes help. They're useful tools. But they're just that - tools. And tools don't build great products - motivated people do.
 
-It's quite profound when you think about it. How many times have we sat in a 2-hour long meeting to discuss how a change to process and governance is going to help improve our efficiency, quality of service and due date performance? **What if we spent as much energy on our people as we do on metrics?** What if, instead of obsessing over processes, we focussed on helping people to be productive and achieve their goals? Could it be that simple?
+## What Actually Works
 
-Not quite,..but that's where it starts.
+Here's what fifteen years of building teams has taught me about Pink's framework:
 
-Ultimately, processes and tools can only give us more information. That's a great thing, don't get me wrong; but too much information leads to over-consumption,..which leads to under-production. My advice is to keep your tool-chain as light as possible and harness the capability of your teams.
+1. **Autonomy**: Give people problems to solve, not solutions to implement. A team that owns their decisions will outperform a team following orders every single time. I've seen this play out so many times it's not even funny anymore.
 
-## Sound's Like Touchy-Feely Nonsense!
-I know, I know.
+2. **Mastery**: Create space for people to get better at their craft. Not through those mind-numbing mandatory training programmes, but through real challenges that stretch their abilities. People are hooked on achievement - use that.
 
-There's a part of me that deeply dislikes 'that side' of the Agile camp. The side that would have us doing 'Trust Falls' each time we plan a sprint! You know who I'm talking about. We pretend not to see them, but they're there :-)
+3. **Purpose**: Connect work to actual impact. Not through posters about company values, but by showing people how their code, their designs, their decisions make a real difference to someone's life.
 
-Everyone can agree that getting better performance from your teams is a good thing. That is, assuming we're building the right thing.
+## The Real Questions That Matter
 
-So here's the key…
+Want to know if your team is set up for success? Here's what to ask:
 
-The single most effective thing you can do to improve the performance of a team, is to provide an environment which motivates them.
+- Can people make meaningful decisions without drowning in approval chains?
+- Are they genuinely getting better at their craft week by week?
+- Do they understand why their work matters beyond just hitting quarterly targets?
 
-Read that one more time. It's **super** important.
+If you're answering "no" to any of these, all your agile ceremonies won't save you. You're just rearranging deck chairs on the Titanic.
 
-## Finding The Motivation...
-If you want lasting success and innovation, you have to engage your team members. So how do you do that? Well, everyone is different and it's not money for sure.
+## Making It Real
 
-In almost all cases, I've found knowledge workers to be viscerally and intrinsically motivated by achievement. Simply put, **we crave success**.
+Look, I know this sounds a bit touchy-feely. Trust me, there's a part of me that deeply dislikes that side of the Agile camp - the ones who'd have us doing trust falls before every sprint planning session. You know who I mean. We all pretend not to see them at conferences, but they're there :-)
 
-So if we're hooked on success, why do so many software projects fail? I propose that without the freedom to make our own choices (and the responsibility that comes with that), the ability to continually improve our skills and an understanding that **we're part of something bigger than ourselves**, we fall into ambivalence. We become the much maligned 'plodder'.
+But here's what this actually looks like in practice:
 
-## Autonomy, Mastery & Purpose
-Trust people and they will be trustworthy and trust in return. Develop people, and they will develop the organisation. Give people a problem to solve (not a solution to implement), and they will out-perform **any team** that have been simply told what to do.
+1. Trust your people. Actually trust them. Not the "I trust you but let me check everything" kind of trust. Real trust.
+2. Invest in genuine growth. Give people tough problems and the space to solve them.
+3. Show people their impact. Not through metrics, but through real stories of how their work matters.
 
-The power of organisation really is in people.
+## The Uncomfortable Truth
+
+Most organisations say they want high-performing teams but aren't willing to create the environment those teams need to thrive. They want innovation without autonomy, excellence without investment in mastery, and engagement without genuine purpose.
+
+Pink wasn't just right - he was stating the blindingly obvious. We're all hooked on achievement, driven by purpose, and desperate for autonomy. Your business runs on these fundamental human needs.
+
+Either work with that reality or accept that you'll never get the best from your people.
+
+And all those processes you're obsessing over? They're just fancy ways of compensating for demotivated teams.
+
+Sort out the humans first. The rest will follow.

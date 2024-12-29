@@ -3,7 +3,7 @@ title: "Refactoring Unlocks Developer Productivity"
 publishDate: "2024-12-28"
 category: "Engineering Excellence"
 tags: ["refactoring", "code quality", "technical debt", "software design"]
-summary: "Confused, misleading, and bloated code isn't just annoying - it's costing you money. Here's why clarity should be your top priority, explained without a single line of code."
+summary: "Every developer dreams of refactoring your codebase. Here's why you should let them, explained without a single line of code."
 image:
   src: "/blog/refactoring-priority.jpg"
   alt: "A tangled mess of string being untangled into neat lines"
@@ -11,80 +11,77 @@ readingTime: 5
 draft: false
 ---
 
-Developers come to work each day in the hope of refactoring. Yep! Every developer reading this that has worked with crumby code is nodding their head right now. I'll explain why that is but also I want to make the case that it is absolutely in the interest of an organisation to prioritise refactoring in to every iteration/thing you do. 
+Ask any developer what they'd love to do if given a free week, and most will say "clean up the codebase." There's a reason for that, and it's costing you money.
 
-I'm going to try to illustrate the reasons why without resorting to any code. Non techies are welcome here. If you don't understand what refactoring is, fear not, you will soon.
+Your developers tell you the code is "confused", "misleading", and "bloated". They're probably right. But more importantly, those words are a massive red flag that you're not letting them refactor enough.
 
-## The Setup
-Let's imagine you are a Manager, a Product person or maybe a Stakeholder at Big Awesome Co for a moment. You work alongside (the nicer way of saying above or over) a team of developers who get through a reasonable amount of work per sprint/whatever But you know they aren't loving their job a lot of the time.
+## What Bad Code Looks Like
 
-They say the code is "confused, "misleading" and "bloated". They say there aren't enough tests. Maybe they say they need to rewrite it. They might be right. More often than not though, it's more of a red flag that refactoring isn't happening.
+Let me show you three ways code goes wrong, without writing a single line of it:
 
-## What we want: clarity of intent
-We've all received a rushed email from someone that doesn't make any sense. Sometimes the email is of a critical nature and you've got to work with it. You feel like shouting "I don't even know what that means!". It's no fun.
+### 1. Confused Code
 
-But code doesn't work that way though does it? It either works or doesn't surely! 
+Try reading this:
 
-I'm afraid it's not that simple. Let's see why.
+> The complex houses married and single soldiers and their families.
 
-## The code is confused
-Read this sentence aloud for me.
+Utterly confusing, right? But it's describing something simple:
 
-"The complex houses married and single soldiers and their families."
+> The complex houses:
+> - Single soldiers
+> - Married soldiers
+> - Their families
 
-Say what?!
+That's it - just a building complex with three types of residents. Your codebase is full of the first version: technically correct but needlessly hard to understand.
 
-That sentence is grammatically correct. But it's really confusing, isn't it! 
+### 2. Misleading Code
 
-It's a special kind of sentence called a 'Garden Path Sentence'. They're fun little distractions, but not so much fun if you have to decipher them all day, every day. Read it again, it makes sense I promise.
+Here's a sentence that will break your brain:
 
-Still not got it? Try this 'refactored' version...
+> More people have been to Russia than I have.
 
-The complex, houses married and single soldiers, and their families. [Penny drops].
+Sounds perfectly fine until you try to work out what it actually means. Is it comparing:
+- The number of people who've been to Russia... with what exactly?
+- Or is it comparing the number of people against the number of times I've been?
+- Either way, the logic falls apart completely
 
-It means that single soldiers, as well as married soldiers and their families, are housed in the complex.
+It's like code that passes every syntax check but is fundamentally broken. Your codebase is probably full of functions that look sensible until you try to explain what they actually do.
 
-Code can be written in a way that works, is syntactically correct, but confusing as hell.
+### 3. Bloated Code
 
-They say the code is "confused". This is what they mean.
+Here's what happens when we keep adding "just one more thing":
 
-## The code is misleading
-"More people have been to Russia than I have"
+> The young male rats that were from the same colony as the rats with symptoms of the disease, but which do not show sign of the disease at this stage of their development were used as the control group.
 
-That one makes sense right? Except it doesn't.
+Or we could just say:
 
-This is an example of something called the 'Comparative Illusion' (sometimes called an Escher sentence). At first blush, it looks like it makes sense. But it does not. Go on, try to make sense of it.
+> Symptom-free young male rats from the infected colony served as controls.
 
-Code can be written in a way that looks right, and is simple, but does totally the wrong thing.
+Your codebase is the first version. Everywhere.
 
-If it was our actual intent to say "People have been to Russia more than I have", we could refactor it to say that.
+## The Real Cost
 
-They say the code is "misleading". This is what they mean.
+When you prioritise speed over clarity:
+1. Simple changes take days instead of hours
+2. Bugs hide in plain sight
+3. New developers take months to become productive
+4. Your best people leave out of frustration
 
-## The code is bloated
-"The young male rats that were from the same colony as the rats with symptoms of the disease, but which do not show sign of the disease at this stage of their development were used as the control group"
+That's not a technical problem - it's a business problem.
 
-This one makes, sense and is grammatically correct. But it's a bit of a mouthful eh! Hard to wrangle into a coherent thought. Let's rewrite it.
+## What To Do About It
 
-"The symptom-free, young male rats were used as the control group. 
+1. Make refactoring part of every piece of work
+2. Judge progress by clarity, not just features
+3. Give developers time to clean up after themselves
+4. Stop pretending technical debt doesn't cost money
 
-These rats were from the same colony as the rats showing symptoms of the disease"
+## The Bottom Line
 
-This is the most common one we encounter as programmers. It's an example of something that started out simple and became more complex over time by adding extra clauses. We can refactor the original sentence by separating the two statements and make it easier to work with and understand. 
+Every time you rush a feature out without letting the team clean up after themselves, you're taking out a high-interest loan against your future productivity.
 
-They say the code is "bloated". This is what they mean.
+The interest compounds. Daily.
 
-## Summing up: What are you paying for?
-Okay, let your brain take a breath for a second. That kind of mental gymnastics is really tiring isn't it?
+Want to know the real kicker? The time you think you're saving by skipping refactoring? You've already spent it ten times over just working around the mess you've created.
 
-Nobody in their right mind would want to do that all day long. 
-
-Serious question though… Do we really want to invest our hard earned money in puzzles like that? Or do we want software that is easy to understand, maintain and extend? 
-
-Every time we say there isn't time for refactoring, we force people to spend their time picking apart code and trying to figure out what in the hell it's supposed to do. 
-
-That is a really bad investment.
-
-Every new feature will be harder to integrate. Every bug will be more difficult to fix. Eventually, you will grind to halt. And that's what makes refactoring a business problem.
-
-Favour clarity in design. Prioritise refactoring.
+Favour clarity in design. Prioritise refactoring. Your future self will thank you.

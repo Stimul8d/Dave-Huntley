@@ -8,40 +8,46 @@ readingTime: 5
 draft: false
 ---
 
-A friend of mine recently asked me for advice on convincing his boss to start adopting some 'agile-inspired' principles in the department he looks after.
+Every month someone asks me how to convince their organisation to "go agile". They've usually got a resistant boss, an anti-agile culture, and a burning desire to fix what they see as broken processes.
 
-He explained that there is an anti-agile culture where he works and that questions over working practices generally got shot down quite quickly. That made his life more difficult because he hadn't got the freedom he needed to make improvements where he felt they could be made. How could he sell agile to an organisation who don't want to have the discussion?
+Here's the uncomfortable truth: you can't sell agile. More importantly, you shouldn't try.
 
-I've spoken to a lot of people in that position and I can tell you that in my experience, you can't. Nor should you because you'd almost definitely fail.
+Think about it. If a business is turning a profit, why would they want to upend their entire way of working? They're doing something right, even if it looks messy from the outside. Successful companies rarely welcome wholesale change, and that's exactly how most people pitch agile - as a massive transformation that'll disrupt everything they know.
 
-If you make the assumption that the business is already somewhat profitable, then **why should they change**? A change might threaten their culture, disrupt working processes and maybe even require a change to their structure and roles. If they're even kinda successful, they're doing *something* right!
+## The Problem with Selling Change
 
-If you try to sell agile as **change**, then you're doomed from the get-go. A lot of organisations have a real tough time separating change from risk and that scares them. People hate change!
+Most organisations treat change and risk as the same thing. The moment you start talking about new processes, different roles, or restructuring teams, you're actually telling people their jobs might be at risk. Of course they'll resist.
 
-## Point 1: Talk about improvement, not change,.. and leave the 'A' word out of it
+But here's what's mental: the same people who reject "agile transformation" will happily talk about making their work easier or delivering value faster. They're not against improvement - they're against buzzwords and frameworks that threaten their stability.
 
-**You can't sell agile because it can't be bought.**
+## Stop Treating Agile Like a Destination
 
-By-the-book Scrum is very different from a 'traditional' software development process. It *mandates* a new schedule, new roles and completely new ways of working. In a learning organisation, I agree almost entirely with the Scrum approach, but what I can't get on board with is the idea that one day, you just change.
+The biggest lie in enterprise transformation is that there's an end state. That one day you'll be "done" implementing agile and everything will just work. It's nonsense.
 
-Of course, Scrum doesn't suggest overnight change. The problem is that it doesn't suggest **anything** about how to start, so a lot of teams just dive right on in! No coach worth their salt would attempt the 'Big Bang' implementation but I've seen a lot of in-house transformations take that road.
+Scrum's a perfect example. It's a solid framework, but dropping it into an organisation overnight is like trying to learn swimming by reading a book and then jumping into the deep end. You're missing all the experiential learning that makes it actually work.
 
-The first problem with that is it draws too much attention to process. Immediately you're off to a bad start because any failure will be associated with the new process.
+You can't buy experience. You can't skip the learning curve. And you definitely can't shortcut your way to organisational maturity by implementing someone else's process.
 
-The second problem is that it's just not very agile, is it? It's a ready baked, feature rich pattern of work and you took it all in one gulp. What happened to making small changes, measuring and then adjusting your plan?
+## Create Space for Learning Instead
 
-## Point 2: Don't turn agile into a destination. There is no end-game here!
+Want to actually improve how your organisation works? Forget the frameworks. Instead:
 
-If you were to take on Scrum overnight, you would've conned yourself out of all the learning and experience that the creators of Scrum already had the benefit of when they developed it. Your organisation will need to earn that experience too in order for agile to have the best chance of success.
+1. Start with pain points that actually matter to people. Not your pet issues - their real, daily frustrations.
 
-**You can't sell that**, so if you want to start becoming agile, create the best environment you can for learning at all levels. Which leads me to my main point…
+2. Make small changes that deliver immediate value. If you can't show benefit within a week, you're thinking too big.
 
-## Point 3: Don't try to sell anything. Create an environment that facilitates and provides incentives for learning and improvement
+3. Measure everything. Not vanity metrics - actual delivery speed, quality improvements, and customer satisfaction.
 
-## Learning Agile
+4. Build feedback loops into every process. The faster you can learn what works, the quicker you can adjust course.
 
-Forget about Scrum, XP, Lean or any other immediately recognisable pattern of work. Focus on creating feedback loops and figure out how you get improvement into your day-to-day activities. Nearly everyone can get on board with that.
+Most importantly, stop trying to convince anyone of anything. Instead, show them how to make their work easier, their delivery more reliable, and their lives less stressful.
 
-Speak directly to those people who resist change most and ask them how you can help them get *their* work done more easily. No matter how experienced you are in a given field...
+The irony is that if you do this right, you'll end up with something that looks suspiciously like agile working. But you won't have had to sell it, because people will have built it themselves.
 
-Nobody cares how much you know until they know how much you care.
+## The Real Work
+
+Transformation isn't about frameworks or methodologies. It's about creating an environment where people can experiment safely, learn continuously, and improve constantly.
+
+That's not something you can sell. It's something you have to grow, nurture, and earn - one small improvement at a time.
+
+And if someone tells you otherwise? They're probably trying to sell you something.
