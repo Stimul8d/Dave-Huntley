@@ -1,9 +1,13 @@
 ---
-title: "Why Refactoring Should Be Your Priority"
+title: "Refactoring Unlocks Developer Productivity"
 publishDate: "2024-12-28"
 category: "Engineering Excellence"
 tags: ["refactoring", "code quality", "technical debt", "software design"]
-summary: "Why unclear code is killing your productivity and what to do about it"
+summary: "Confused, misleading, and bloated code isn't just annoying - it's costing you money. Here's why clarity should be your top priority, explained without a single line of code."
+image:
+  src: "/blog/refactoring-priority.jpg"
+  alt: "A tangled mess of string being untangled into neat lines"
+readingTime: 5
 draft: false
 ---
 

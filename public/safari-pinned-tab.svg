@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <rect width="100" height="100" fill="#1e293b" />
+  <path d="M50 0C22.4 0 0 22.4 0 50s22.4 50 50 50 50-22.4 50-50S77.6 0 50 0zm0 10c22.1 0 40 17.9 40 40s-17.9 40-40 40S10 72.1 10 50s17.9-40 40-40z"/>
   <text x="50" y="65" 
         font-family="Inter, system-ui, sans-serif" 
         font-size="45" 
         font-weight="700"
-        fill="white" 
+        fill="black" 
         text-anchor="middle">
     DH
   </text>

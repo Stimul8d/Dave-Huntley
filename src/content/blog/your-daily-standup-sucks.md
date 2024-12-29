@@ -1,9 +1,14 @@
 ---
-title: "Your Daily Standup is Broken (Here's How to Fix It)"
+title: "Why Your Daily Standup Sucks (and How to Make It Work)"
 publishDate: "2024-01-15"
 category: "Delivery & Process"
 tags: ["agile", "scrum", "team practices", "process improvement"]
-summary: "Stop wasting time with status updates and start actually planning"
+summary: "Tired of status updates masquerading as planning? Here's how to transform your daily standup from a mind-numbing ritual into an actual planning session that drives results."
+image:
+  src: "/Dave-Huntley/blog/fix-your-standups.jpg"
+  alt: "A broken clock on a wall"
+  credit: "Photo by Denny Müller on Unsplash"
+readingTime: 6
 draft: false
 ---
 

@@ -16,14 +16,13 @@ const { frontmatter } = Astro.props;
         class="text-4xl lg:text-5xl font-bold lg:tracking-tight mt-1 lg:leading-tight">
         {frontmatter.title}
       </h1>
+
       <div class="flex gap-2 mt-3 items-center flex-wrap md:flex-nowrap">
-        <span class="text-gray-400">
-          {frontmatter.author}
-        </span>
-        <span class="text-gray-400">•</span>
         <time class="text-gray-400" datetime={frontmatter.publishDate}>
           {getFormattedDate(frontmatter.publishDate)}
         </time>
+        <span class="text-gray-400">•</span>
+        <span class="text-gray-400">{frontmatter.readingTime} min read</span>
         <span class="text-gray-400 hidden md:block">•</span>
         <div class="w-full md:w-auto flex flex-wrap gap-3">
           {
@@ -33,11 +32,33 @@ const { frontmatter } = Astro.props;
           }
         </div>
       </div>
+
+      {frontmatter.image && (
+        <div class="mt-6">
+          <figure>
+            <img
+              src={frontmatter.image.src}
+              alt={frontmatter.image.alt}
+              class="rounded-xl w-full object-cover"
+            />
+            {frontmatter.image.credit && (
+              <figcaption class="mt-2 text-sm text-right text-gray-400">
+                {frontmatter.image.credit}
+              </figcaption>
+            )}
+          </figure>
+        </div>
+      )}
+
+      <p class="mt-6 text-xl text-gray-600 leading-relaxed">
+        {frontmatter.summary}
+      </p>
     </div>
 
     <div class="mx-auto prose prose-lg mt-6">
       <slot />
     </div>
+    
     <div class="text-center mt-8">
       <a
         href="/blog"

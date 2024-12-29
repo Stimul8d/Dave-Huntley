@@ -1,9 +1,10 @@
 ---
-title: "Autonomy, Mastery, Purpose: The Real Keys to Agile"
+title: "Autonomy, Mastery, Purpose"
 publishDate: "2023-10-15"
 category: "Leadership & Transformation"
 tags: ["agile", "team building", "motivation", "organisational change"]
-summary: "Why most agile transformations fail, and what actually drives team performance"
+summary: "Dan Pink nailed it with his theory on what drives us. Here's why most agile transformations fail, and what actually drives team performance - hint: it's not your process."
+readingTime: 5
 draft: false
 ---
 

@@ -1,9 +1,10 @@
 ---
-title: "You Can't Sell Agile (So Stop Trying)"
+title: "You Can't Sell Agile"
 publishDate: "2023-11-12"
 category: "Leadership & Transformation"
 tags: ["agile", "transformation", "change management", "leadership"]
-summary: "Why trying to sell agile is the wrong approach, and what actually works"
+summary: "Trying to convince people to 'go agile' is a fool's errand. Here's why most agile transformations fail, and what to do instead of selling frameworks and processes."
+readingTime: 5
 draft: false
 ---
 
