@@ -20,7 +20,7 @@
 
 - Never truncate content or use placeholders
 - Blockquotes for significant quotes using markdown `>`
-- Use **bold** for emphasis, not italics
+- Use **bold** for emphasis, not italics. use this in every post.
 - Keep analogies simple and practical - if they need explaining, they're too complex
 - Don't explain technical concepts unless specifically asked
 - Break up long content with clear, descriptive headers

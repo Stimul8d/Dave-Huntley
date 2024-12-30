@@ -2,7 +2,6 @@
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
-import { getFormattedDate } from "@utils/all";
 
 const basePath = import.meta.env.BASE_URL;
 const posts = await getCollection("blog", ({ data }) => {
@@ -32,27 +31,19 @@ posts.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
                     </div>
                   )}
                   <div class="p-6">
-                    <div class="flex items-center gap-2 text-sm text-slate-500 mb-2">
-                      <span class="text-blue-600 font-medium">
-                        {post.data.category}
-                      </span>
-                      <span>•</span>
-                      <time datetime={post.data.publishDate.toISOString()}>
-                        {getFormattedDate(post.data.publishDate)}
-                      </time>
-                      <span>•</span>
-                      <span>{post.data.readingTime} min read</span>
-                    </div>
+                    <span class="text-blue-600 font-medium text-sm">
+                      {post.data.category}
+                    </span>
                     
-                    <h2 class="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">
+                    <h2 class="text-xl font-bold mt-2 group-hover:text-blue-600 transition-colors">
                       {post.data.title}
                     </h2>
                     
-                    <p class="text-slate-600 mb-4 line-clamp-2">
+                    <p class="text-slate-600 mt-2 line-clamp-2">
                       {post.data.summary}
                     </p>
 
-                    <div class="flex flex-wrap gap-2">
+                    <div class="flex flex-wrap gap-2 mt-4">
                       {post.data.tags.map((tag) => (
                         <span class="text-sm text-slate-500">#{tag}</span>
                       ))}
