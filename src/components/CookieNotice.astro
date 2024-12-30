@@ -1,0 +1,30 @@
+---
+---
+<div class="fixed bottom-0 left-0 right-0 bg-gray-900 text-white p-4">
+  <div class="max-w-7xl mx-auto flex justify-between items-center">
+    <p class="text-sm">
+      🍪 Just counting visits, nothing creepy
+      <a href="/Dave-Huntley/privacy" class="underline ml-2">Details</a>
+    </p>
+    <button 
+      id="accept-cookies" 
+      class="bg-white text-gray-900 px-4 py-2 rounded-md text-sm"
+    >
+      Got it
+    </button>
+  </div>
+</div>
+
+<script>
+  const notice = document.querySelector('.fixed');
+  const button = document.querySelector('#accept-cookies');
+  
+  if (localStorage.getItem('cookies-accepted')) {
+    notice?.remove();
+  }
+
+  button?.addEventListener('click', () => {
+    localStorage.setItem('cookies-accepted', 'true');
+    notice?.remove();
+  });
+</script>

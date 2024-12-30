@@ -2,6 +2,8 @@
 import { SEO } from "astro-seo";
 import Footer from "@components/footer.astro";
 import Navbar from "@components/navbar/navbar.astro";
+import Analytics from "@components/Analytics.astro";
+import CookieNotice from "@components/CookieNotice.astro";
 import "@fontsource-variable/inter/index.css";
 import '@fontsource-variable/bricolage-grotesque';
 
@@ -23,6 +25,7 @@ const makeTitle = title
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
+    <Analytics />
 
     <!-- Primary Meta Tags -->
     <link rel="icon" type="image/svg+xml" href={import.meta.env.BASE_URL + "/favicon.svg"} />
@@ -57,6 +60,7 @@ const makeTitle = title
     <Navbar />
     <slot />
     <Footer />
+    <CookieNotice />
     <style is:global>
       img {
         content-visibility: auto;
