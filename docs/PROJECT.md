@@ -46,9 +46,25 @@
    - Need to update with image credit
    - Image works: Yes
 
+6. Strategic Alignment Isn't Rocket Science
+   - Published: 2024-02-15
+   - Status: Complete with content
+   - Image: Not required
+
+7. Building Your First X-Matrix
+   - Published: 2024-03-01
+   - Status: Complete with 8 step-by-step images
+   - Images: Complete set in xmatrix folder
+
+8. Making Catchball Work
+   - Published: 2024-03-15
+   - Status: Complete with content
+   - Image: Not required
+
 ## Image Handling
 - Blog images live in `/public/blog/`
 - Image filename MUST match the blog slug exactly (e.g. blog slug `selling-agile` needs image `selling-agile.jpg`)
+- Special case: x-matrix tutorial images in `/public/blog/xmatrix/` numbered one.png through eight.png
 - All blog images must be 1920x1280 (Medium from Unsplash)
 - Images are referenced using slug-based paths in templates
 - DO NOT add image data to frontmatter - it causes issues
@@ -74,7 +90,7 @@ draft: false
 - DO NOT use separate BlogLayout - everything is in [slug].astro
 
 ## Common Gotchas
-1. Images must match blog post slug exactly
+1. Images must match blog post slug exactly (except xmatrix sequence)
 2. Base URL is handled in the template, don't add it to content
 3. All content lives in `/src/content/blog/`
 4. Favicon and other static assets need base URL

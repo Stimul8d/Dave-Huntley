@@ -18,13 +18,23 @@
 
 ## Content Principles
 
-- Never truncate content or use placeholders like "[previous content remains the same]"
+- Never truncate content or use placeholders
 - Blockquotes for significant quotes using markdown `>`
 - Use **bold** for emphasis, not italics
 - Keep analogies simple and practical - if they need explaining, they're too complex
 - Don't explain technical concepts unless specifically asked
 - Break up long content with clear, descriptive headers
 - Use concrete numbers and specific examples wherever possible
+- Never use [previous content remains the same] or similar placeholders
+
+## Series Structure
+
+When writing series:
+1. Each post must stand alone and make sense in isolation
+2. Reference previous posts naturally, don't assume reader has seen them
+3. At least 2 weeks between series posts
+4. Clear links between posts but no dependency
+5. Consistent tone and style across the series
 
 ## Temporal Guidelines
 - Avoid specific timeframes ("last week", "recently", "the other day")
@@ -99,6 +109,13 @@
 - Blockquotes for quoted content
 - No underlining
 - Links should be [descriptive](url), not bare URLs
+
+## Images
+- Blog post images: 1920x1280
+- Series/sequence images: Numbered sequentially (one.png, two.png)
+- All images must be properly credited
+- Alt text must be descriptive and useful
+- No placeholder images or lorem picsum
 
 ## Common Pitfalls to Avoid
 

@@ -1,9 +1,16 @@
 # Project TODO
 
 ## Blog Content
-- Finish remaining 12 blog posts (3/15 done)
-- Add images where relevant
+- Complete remaining 7 blog posts (8/15 done)
+- Add missing images where needed
 - Review and polish existing content
+- Plan content schedule through 2024
+
+## Series Management
+- Strategic Alignment series complete:
+  1. Strategic Alignment Isn't Rocket Science
+  2. Building Your First X-Matrix
+  3. Making Catchball Work
 
 ## Design
 - Create dark mode toggle
