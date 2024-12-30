@@ -1,14 +1,10 @@
 ---
-title: "Refactoring Unlocks Developer Productivity"
-publishDate: "2024-12-28"
-category: "Engineering Excellence"
-tags: ["refactoring", "code quality", "technical debt", "software design"]
-summary: "Every developer dreams of refactoring your codebase. Here's why you should let them, explained without a single line of code."
-image:
-  src: "/blog/refactoring-priority.jpg"
-  alt: "A tangled mess of string being untangled into neat lines"
-readingTime: 5
-draft: false
+  title: "Refactoring Unlocks Developer Productivity"
+  category: "Engineering Excellence"
+  order: 3
+  tags: ["refactoring", "code quality", "technical debt", "software design"]
+  summary: "Every developer dreams of refactoring your codebase. Here's why you should let them, explained without a single line of code."
+  draft: false
 ---
 
 Ask any developer what they'd love to do if given a free week, and most will say "clean up the codebase." There's a reason for that, and it's costing you money.

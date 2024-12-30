@@ -1,11 +1,10 @@
 ---
-title: "Autonomy, Mastery, Purpose"
-publishDate: "2023-10-15"
-category: "Leadership & Transformation"
-tags: ["agile", "team building", "motivation", "organisational change"]
-summary: "Dan Pink nailed what drives us. Here's why most agile transformations miss the point, and what actually drives team performance - hint: it's not your process."
-readingTime: 5
-draft: false
+  title: "Autonomy, Mastery, Purpose"
+  category: "Practical Leadership"
+  order: 2
+  tags: ["agile", "team building", "motivation", "organisational change"]
+  summary: "Dan Pink nailed what drives us. Here's why most agile transformations miss the point, and what actually drives team performance - hint: it's not your process."
+  draft: false
 ---
 
 A decade ago, Dan Pink wrote [Drive](https://www.danpink.com/books/drive/) and gave [one of the most important TED talks](https://www.ted.com/talks/dan_pink_the_puzzle_of_motivation?subtitle=en) about what motivates us at work. He nailed it then, and it's even more relevant now.

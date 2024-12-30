@@ -1,11 +1,10 @@
 ---
-title: "Strategic Alignment Isn't Rocket Science"
-publishDate: "2024-02-15"
-category: "Leadership & Transformation"
-tags: ["strategy", "leadership", "x-matrix", "hoshin"]
-summary: "The x-matrix gives you a clear view of your strategy deployment. Here's how to use it properly."
-readingTime: 10
-draft: false
+  title: "Strategic Alignment Isn't Rocket Science"
+  category: "Lean Thinking"
+  order: 1
+  tags: ["strategy", "leadership", "x-matrix", "hoshin"]
+  summary: "The x-matrix gives you a clear view of your strategy deployment. Here's how to use it properly."
+  draft: false
 ---
 
 Most organisations overcomplicate strategic alignment. They'll spend months crafting the perfect vision, then wonder why nothing changes on the ground.

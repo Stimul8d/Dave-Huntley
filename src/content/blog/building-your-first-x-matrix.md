@@ -1,11 +1,10 @@
 ---
-title: "Building Your First X-Matrix"
-publishDate: "2024-03-01"
-category: "Leadership & Transformation"
-tags: ["strategy", "leadership", "x-matrix", "hoshin"]
-summary: "Forget complicated tools. Here's how to build an x-matrix in Excel that actually drives alignment."
-readingTime: 10
-draft: false
+  title: "Building Your First X-Matrix"
+  category: "Lean Thinking"
+  order: 2
+  tags: ["strategy", "leadership", "x-matrix", "hoshin"]
+  summary: "Forget complicated tools. Here's how to build an x-matrix in Excel that actually drives alignment."
+  draft: false
 ---
 
 Right, let's build an x-matrix. You'll need Excel and about an hour with your team.

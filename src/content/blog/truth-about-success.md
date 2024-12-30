@@ -1,10 +1,9 @@
 ---
-title: "The Truth About Success"
-publishDate: "2023-12-28"
-category: "Leadership & Transformation"
-tags: ["leadership", "growth", "success"]
-summary: "The real secret to success isn't expertise or knowledge - it's admitting you don't have all the answers. Here's why vulnerability beats certainty every time."
-readingTime: 10
+title: "Truth About Success"
+category: "Practical Leadership"
+order: 6
+tags: ["leadership", "mindset", "growth"]
+summary: "Success isn't what you think it is. Here's why chasing the wrong metrics makes you miserable and what actually matters for long-term achievement."
 draft: false
 ---
 

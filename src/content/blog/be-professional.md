@@ -1,11 +1,10 @@
 ---
-title: "Be Professional"
-publishDate: "2024-02-12"
-category: "Leadership & Transformation"
-tags: ["leadership", "culture", "authenticity"]
-summary: "Why do we equate professionalism with how we dress? A sharp suit and polished shoes don't automatically make you professional - your actions and behaviours do."
-readingTime: 5
-draft: false
+  title: "Be Professional"
+  category: "Practical Leadership"
+  order: 4
+  tags: ["leadership", "culture", "authenticity"]
+  summary: "Why do we equate professionalism with how we dress? A sharp suit and polished shoes don't automatically make you professional - your actions and behaviours do."
+  draft: false
 ---
 
 Do a quick image search for 'Professional'. You'll be confronted with an abject sea of pinstripe, handshaking, and clipboards. Somehow professionalism has become inextricably linked with appearance. But there's a darker side to this façade that we need to talk about.

@@ -1,11 +1,10 @@
 ---
-title: "Good Metrics, Bad Metrics"
-publishDate: "2024-02-01"
-category: "Leadership & Transformation"
-tags: ["metrics", "leadership", "transformation", "lean"]
-summary: "Measuring everything is a trap that costs more than you think. Here's how to measure what actually matters."
-readingTime: 10
-draft: false
+  title: "Good Metrics, Bad Metrics"
+  category: "Engineering Excellence"
+  order: 2
+  tags: ["metrics", "leadership", "transformation", "lean"]
+  summary: "Measuring everything is a trap that costs more than you think. Here's how to measure what actually matters."
+  draft: false
 ---
 
 > What gets measured gets improved.

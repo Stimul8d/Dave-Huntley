@@ -1,11 +1,10 @@
 ---
-title: "You Can't Sell Agile"
-publishDate: "2023-11-12"
-category: "Leadership & Transformation"
-tags: ["agile", "transformation", "change management", "leadership"]
-summary: "Trying to convince people to 'go agile' is a fool's errand. Here's why most agile transformations fail, and what to do instead of selling frameworks and processes."
-readingTime: 5
-draft: false
+  title: "You Can't Sell Agile"
+  category: "Making Agile Work"
+  order: 1
+  tags: ["agile", "transformation", "change management", "leadership"]
+  summary: "Trying to convince people to 'go agile' is a fool's errand. Here's why most agile transformations fail, and what to do instead of selling frameworks and processes."
+  draft: false
 ---
 
 Every month someone asks me how to convince their organisation to "go agile". They've usually got a resistant boss, an anti-agile culture, and a burning desire to fix what they see as broken processes.

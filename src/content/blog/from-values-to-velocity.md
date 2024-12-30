@@ -1,11 +1,10 @@
 ---
-title: "From Values to Velocity"
-publishDate: "2023-12-18"
-category: "Leadership & Transformation"
-tags: ["agile", "software development", "process", "transformation"]
-summary: "We took a revolution in software development and turned it into another system of control. Here's how agile lost its soul, and what we can do about it."
-readingTime: 5
-draft: false
+  title: "From Values to Velocity"
+  category: "Making Agile Work"
+  order: 2
+  tags: ["agile", "software development", "process", "transformation"]
+  summary: "We took a revolution in software development and turned it into another system of control. Here's how agile lost its soul, and what we can do about it."
+  draft: false
 ---
 
 Every job listing wants "experience in an Agile setting". But what the fuck does that even mean anymore?

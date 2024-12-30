@@ -1,13 +1,9 @@
 ---
 title: "Know Your True North"
-publishDate: "2024-01-29"
-category: "Leadership & Transformation"
+category: "Practical Leadership"
+order: 1
 tags: ["leadership", "values", "ethics", "decision making"]
 summary: "Most mission statements are just noise. Here's why what you remove matters more than what you add, and why your toughest decisions are your most revealing ones."
-image:
-  src: "/Dave-Huntley/blog/know-your-true-north.jpg"
-  alt: "A compass in the wilderness pointing north"
-readingTime: 5
 draft: false
 ---
 

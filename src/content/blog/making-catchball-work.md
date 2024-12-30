@@ -1,11 +1,10 @@
 ---
-title: "Making Catchball Work"
-publishDate: "2024-03-15"
-category: "Leadership & Transformation"
-tags: ["strategy", "leadership", "x-matrix", "hoshin", "catchball"]
-summary: "Catchball turns strategy deployment from a broadcast into a conversation. Here's how to do it properly."
-readingTime: 10
-draft: false
+  title: "Making Catchball Work"
+  category: "Lean Thinking"
+  order: 3
+  tags: ["strategy", "leadership", "x-matrix", "hoshin", "catchball"]
+  summary: "Catchball turns strategy deployment from a broadcast into a conversation. Here's how to do it properly."
+  draft: false
 ---
 
 Imagine playing catch with yourself. Stupid idea, right? Yet that's exactly how most organisations handle strategy - throwing ideas into the void and hoping someone catches them.

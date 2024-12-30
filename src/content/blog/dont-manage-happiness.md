@@ -1,11 +1,10 @@
 ---
-title: "Don't Manage for Happiness"
-publishDate: "2024-01-30"
-category: "Leadership & Transformation"
-tags: ["leadership", "management", "culture"]
-summary: "The modern obsession with managing for happiness is causing more harm than good. Here's why we should focus on discipline, objectivity and composure instead."
-readingTime: 10
-draft: false
+  title: "Don't Manage for Happiness"
+  category: "Practical Leadership"
+  order: 3
+  tags: ["leadership", "management", "culture"]
+  summary: "The modern obsession with managing for happiness is causing more harm than good. Here's why we should focus on discipline, objectivity and composure instead."
+  draft: false
 ---
 
 I could be at risk of being on the receiving end of a barrage of discredit here but the modern notion of managing for happiness, optimism and motivation should probably stop. For a while now I've noticed the idea causing much more harm than good.

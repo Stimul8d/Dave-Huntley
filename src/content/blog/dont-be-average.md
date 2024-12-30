@@ -1,11 +1,10 @@
 ---
-title: "Don't Be Average"
-publishDate: "2024-02-15"
-category: "Leadership & Transformation"
-tags: ["agile", "performance", "planning"]
-summary: "Planning based on averages isn't just flawed - it actively encourages mediocrity. Here's why your planning process is holding you back."
-readingTime: 10
-draft: false
+  title: "Don't Be Average"
+  category: "Making Agile Work"
+  order: 3
+  tags: ["agile", "performance", "planning"]
+  summary: "Planning based on averages isn't just flawed - it actively encourages mediocrity. Here's why your planning process is holding you back."
+  draft: false
 ---
 
 Planning based on historical performance isn't just ineffective - it's actively destructive. When you plan using averages, you're not being pragmatic. You're **choosing to be mediocre**.

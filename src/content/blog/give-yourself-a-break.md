@@ -1,11 +1,10 @@
 ---
-title: "Give Yourself a Break"
-publishDate: "2024-02-28"
-category: "Leadership & Transformation"
-tags: ["growth", "mindset", "imposter-syndrome"]
-summary: "Your biggest critic is staring back at you in the mirror. Here's why you're better than you think, and why that matters more than you realise."
-readingTime: 5
-draft: false
+  title: "Give Yourself a Break"
+  category: "Practical Leadership"
+  order: 5
+  tags: ["growth", "mindset", "imposter-syndrome"]
+  summary: "Your biggest critic is staring back at you in the mirror. Here's why you're better than you think, and why that matters more than you realise."
+  draft: false
 ---
 
 A few years back, I told one of my developers that he was brilliant. I meant it. He was genuinely one of the best I'd worked with. His response? I was "blowing smoke up his arse."

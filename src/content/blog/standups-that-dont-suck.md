@@ -1,15 +1,10 @@
 ---
-title: "Standups That Don't Suck"
-publishDate: "2024-01-15"
-category: "Delivery & Process"
-tags: ["agile", "scrum", "team practices", "process improvement"]
-summary: "Tired of status updates masquerading as planning? Here's how to transform your daily standup from a mind-numbing ritual into something actually useful."
-image:
-  src: "/Dave-Huntley/blog/fix-your-standups.jpg"
-  alt: "A broken clock on a wall"
-  credit: "Photo by Denny Müller on Unsplash"
-readingTime: 5
-draft: false
+  title: "Standups That Don't Suck"
+  category: "Making Agile Work"
+  order: 4
+  tags: ["agile", "scrum", "team practices", "process improvement"]
+  summary: "Tired of status updates masquerading as planning? Here's how to transform your daily standup from a mind-numbing ritual into something actually useful."
+  draft: false
 ---
 
 The daily scrum is meant to be a planning session. When was the last time your team actually made a plan in one?

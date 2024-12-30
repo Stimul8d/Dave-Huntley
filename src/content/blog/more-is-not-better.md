@@ -1,11 +1,10 @@
 ---
-title: "More is Not Better"
-publishDate: "2024-02-15"
-category: "Software Development"
-tags: ["product", "software", "complexity", "leadership"]
-summary: "Most software products die from feature bloat. Here's how to build something brilliant instead of ten things that are just okay."
-readingTime: 10
-draft: false
+  title: "More is Not Better"
+  category: "Engineering Excellence"
+  order: 1
+  tags: ["product", "software", "complexity", "leadership"]
+  summary: "Most software products die from feature bloat. Here's how to build something brilliant instead of ten things that are just okay."
+  draft: false
 ---
 
 Most software businesses choose to compete on features. They'll tell you about their "rich feature set" and how they can build anything you need. It sounds great until you realise you're being sold a lie.
