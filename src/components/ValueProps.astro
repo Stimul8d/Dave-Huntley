@@ -1,4 +1,6 @@
 ---
+const { showIndex = null } = Astro.props;
+
 const sections = [
   {
     title: "Enable Effective Delivery",
@@ -22,10 +24,12 @@ const sections = [
     content: "Twenty years of bridging the gap between what businesses need and what engineering delivers. I speak both languages fluently and keep everyone focused on what matters: getting valuable software into production, at pace."
   }
 ];
+
+const sectionsToRender = showIndex !== null ? [sections[showIndex]] : sections;
 ---
 
-<div class="grid lg:grid-cols-3 gap-12">
-  {sections.map(section => (
+<div class={showIndex !== null ? "" : "grid lg:grid-cols-3 gap-12"}>
+  {sectionsToRender.map(section => (
     <div class="flex flex-col items-start">
       <div class="flex items-center gap-3 mb-4">
         <div class="text-gray-600">
