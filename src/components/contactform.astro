@@ -1,127 +1,81 @@
 ---
-import Button from "./ui/button.astro";
 ---
+<form id="contact-form" class="space-y-6">
+  <div>
+    <label class="text-lg font-medium text-slate-900 mb-2 block">Name</label>
+    <input 
+      type="text" 
+      name="name" 
+      required 
+      class="w-full px-4 py-3 bg-white border border-slate-200 rounded-lg text-slate-900 placeholder:text-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-100" 
+      placeholder="What should I call you?" />
+  </div>
 
-<!-- To make this contact form work, create your free access key from https://web3forms.com/
-     Then you will get all form submissions in your email inbox. -->
-<form
-  action="https://api.web3forms.com/submit"
-  method="POST"
-  id="form"
-  class="needs-validation"
-  novalidate>
-  <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
-  <!-- Create your free access key from https://web3forms.com/ -->
-  <input type="checkbox" class="hidden" style="display:none" name="botcheck" />
-  <div class="mb-5">
-    <input
-      type="text"
-      placeholder="Full Name"
-      required
-      class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
-      name="name"
-    />
-    <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-      Please provide your full name.
-    </div>
+  <div>
+    <label class="text-lg font-medium text-slate-900 mb-2 block">Email</label>
+    <input 
+      type="email" 
+      name="email" 
+      required 
+      class="w-full px-4 py-3 bg-white border border-slate-200 rounded-lg text-slate-900 placeholder:text-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+      placeholder="Where can I reach you?" />
   </div>
-  <div class="mb-5">
-    <label for="email_address" class="sr-only">Email Address</label><input
-      id="email_address"
-      type="email"
-      placeholder="Email Address"
-      name="email"
-      required
-      class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
-    />
-    <div class="empty-feedback text-red-400 text-sm mt-1">
-      Please provide your email address.
-    </div>
-    <div class="invalid-feedback text-red-400 text-sm mt-1">
-      Please provide a valid email address.
-    </div>
+
+  <div>
+    <label class="text-lg font-medium text-slate-900 mb-2 block">Message</label>
+    <textarea 
+      name="message" 
+      required 
+      rows="4"
+      class="w-full px-4 py-3 bg-white border border-slate-200 rounded-lg text-slate-900 placeholder:text-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-100 resize-none"
+      placeholder="What's on your mind?"></textarea>
   </div>
-  <div class="mb-3">
-    <textarea
-      name="message"
-      required
-      placeholder="Your Message"
-      class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none h-36 focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
-    ></textarea>
-    <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-      Please enter your message.
-    </div>
-  </div>
-  <Button type="submit" size="lg" block>Send Message</Button>
-  <div id="result" class="mt-3 text-center"></div>
+
+  <button 
+    type="submit"
+    class="w-full bg-slate-900 text-white font-medium px-6 py-3 rounded-lg hover:bg-slate-800 active:bg-slate-950 transition-colors">
+    Send It Over
+  </button>
 </form>
 
-<style>
-  .invalid-feedback,
-  .empty-feedback {
-    display: none;
-  }
-
-  .was-validated :placeholder-shown:invalid ~ .empty-feedback {
-    display: block;
-  }
-
-  .was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
-    display: block;
-  }
-
-  .is-invalid,
-  .was-validated :invalid {
-    border-color: #dc3545;
-  }
-</style>
-
-<script is:inline>
-  const form = document.getElementById("form");
-  const result = document.getElementById("result");
-
-  form.addEventListener("submit", function (e) {
+<script>
+  import emailjs from '@emailjs/browser';
+  
+  emailjs.init("dMXmoFXlzlCxnmY4K");
+  
+  const form = document.getElementById('contact-form') as HTMLFormElement;
+  const button = form?.querySelector('button') as HTMLButtonElement;
+  
+  form?.addEventListener('submit', async (e) => {
     e.preventDefault();
-    form.classList.add("was-validated");
-    if (!form.checkValidity()) {
-      form.querySelectorAll(":invalid")[0].focus();
-      return;
+    
+    if (!button || !form) return;
+
+    button.disabled = true;
+    button.className += ' opacity-75';
+    button.textContent = 'Sending...';
+    
+    try {
+      await emailjs.sendForm(
+        'service_y5rakwh',
+        'template_88hs0by',
+        form,
+        'dMXmoFXlzlCxnmY4K'
+      );
+      
+      button.textContent = 'Got It ✓';
+      form.reset();
+      
+      setTimeout(() => {
+        button.textContent = 'Send It Over';
+        button.disabled = false;
+        button.className = button.className.replace(' opacity-75', '');
+      }, 2000);
+      
+    } catch (error) {
+      button.textContent = 'That Didn\'t Work - Try Again';
+      button.disabled = false;
+      button.className = button.className.replace(' opacity-75', '');
     }
-    const formData = new FormData(form);
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
-
-    result.innerHTML = "Sending...";
-
-    fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: json,
-    })
-      .then(async (response) => {
-        let json = await response.json();
-        if (response.status == 200) {
-          result.classList.add("text-green-500");
-          result.innerHTML = json.message;
-        } else {
-          console.log(response);
-          result.classList.add("text-red-500");
-          result.innerHTML = json.message;
-        }
-      })
-      .catch((error) => {
-        console.log(error);
-        result.innerHTML = "Something went wrong!";
-      })
-      .then(function () {
-        form.reset();
-        form.classList.remove("was-validated");
-        setTimeout(() => {
-          result.style.display = "none";
-        }, 5000);
-      });
   });
 </script>

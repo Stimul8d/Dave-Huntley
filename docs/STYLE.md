@@ -166,14 +166,3 @@ Each post should fit one of these approaches:
 - Suggest better approaches
 - Call to action
 ```
-
-## Frontmatter Guidelines
-```yaml
-title: "Direct, Provocative Title"
-publishDate: "YYYY-MM-DD"
-category: "Leadership & Transformation"
-tags: ["relevant", "topic", "tags"]
-summary: "Hook sentence that captures the core argument. Second sentence explains why it matters."
-readingTime: 5
-draft: false
-```

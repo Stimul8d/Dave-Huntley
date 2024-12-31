@@ -20,47 +20,6 @@
 - e.g. 1100 words = 5.5 mins, rounds to 10 mins
 - Hard code this value in the template for each post
 
-## Content Status
-1. Autonomy, Mastery, Purpose
-   - Published: 2023-10-15
-   - Status: Complete with image and credit
-   - Image works: Yes
-
-2. Has Agile Lost Its Way
-   - Published: 2023-12-18
-   - Status: Complete with image and credit
-   - Image works: Yes
-
-3. Fix Your Standups
-   - Published: 2024-01-15
-   - Status: Complete with image and credit
-   - Image works: Yes
-
-4. Refactoring Priority
-   - Published: 2024-12-28
-   - Need to update with image credit
-   - Image not yet added to public folder
-
-5. Can't Sell Agile
-   - Published: 2023-11-12
-   - Need to update with image credit
-   - Image works: Yes
-
-6. Strategic Alignment Isn't Rocket Science
-   - Published: 2024-02-15
-   - Status: Complete with content
-   - Image: Not required
-
-7. Building Your First X-Matrix
-   - Published: 2024-03-01
-   - Status: Complete with 8 step-by-step images
-   - Images: Complete set in xmatrix folder
-
-8. Making Catchball Work
-   - Published: 2024-03-15
-   - Status: Complete with content
-   - Image: Not required
-
 ## Image Handling
 - Blog images live in `/public/blog/`
 - Image filename MUST match the blog slug exactly (e.g. blog slug `selling-agile` needs image `selling-agile.jpg`)
@@ -75,10 +34,10 @@
 ---
 title: "Post Title"
 publishDate: "YYYY-MM-DD"
-category: "Category Name"
+oder: 
+category: "Category Name" [Practical Leadership, Making Agile Work, Lean Thinking, Engineering Excellence]
 tags: ["tag1", "tag2"]
 summary: "Hook-style summary that tells the reader what they'll get"
-readingTime: 5
 draft: false
 ---
 ```
