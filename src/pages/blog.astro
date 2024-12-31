@@ -36,33 +36,55 @@ const engineering = posts.filter(post => post.data.category === "Engineering Exc
           posts: engineering 
         }
       ].map(section => (
-        <div class="mb-16">
+        <div class="mb-24">
           <h2 class="text-4xl font-bold mb-2 px-4">{section.title}</h2>
-          <p class="text-gray-600 mb-8 px-4">{section.description}</p>
+          <p class="text-gray-600 mb-8 px-4 max-w-3xl">{section.description}</p>
+          
           <div class="relative">
-            <div class="flex overflow-x-auto pb-8 relative">
+            <div class="hidden lg:flex absolute -left-12 top-1/2 -translate-y-1/2 z-10">
+              <button class="p-2 rounded-full bg-white shadow-md hover:shadow-lg transition-shadow">
+                <i class="bx bx-chevron-left text-2xl"></i>
+              </button>
+            </div>
+            
+            <div class="flex lg:grid lg:grid-cols-3 overflow-x-auto lg:overflow-x-visible gap-6 pb-8 lg:pb-0">
               {section.posts.map(post => (
-                <div class="flex-none w-[400px] mr-6 first:ml-4">
-                  <a href={`/Dave-Huntley/blog/${post.slug}`} class="block group">
-                    <div class="bg-gray-50 rounded-xl shadow overflow-hidden transition duration-200 ease-in-out transform group-hover:shadow-lg group-hover:scale-[1.02]">
-                      <img 
-                        src={`/Dave-Huntley/blog/${post.slug}.jpg`}
-                        alt={post.data.title}
-                        class="h-[225px] w-full object-cover filter grayscale transition duration-200 ease-in-out group-hover:grayscale-0"
-                      />
-                      <div class="p-6">
-                        <h3 class="text-xl font-bold mb-3 leading-tight min-h-[3.5rem]">{post.data.title}</h3>
-                        <p class="text-gray-600 line-clamp-2 leading-relaxed">{post.data.summary}</p>
-                      </div>
+                <a href={`/Dave-Huntley/blog/${post.slug}`} class="block flex-none w-[320px] lg:w-auto group">
+                  <div class="bg-gray-50 rounded-xl shadow overflow-hidden h-full flex flex-col transition duration-200 ease-in-out hover:shadow-lg hover:scale-[1.02]">
+                    <img 
+                      src={`/Dave-Huntley/blog/${post.slug}.jpg`}
+                      alt={post.data.title}
+                      class="h-[180px] w-full object-cover filter grayscale transition duration-200 ease-in-out group-hover:grayscale-0"
+                    />
+                    <div class="p-6 flex flex-col flex-grow">
+                      <h3 class="text-xl font-bold mb-4 min-h-[3.5rem] flex items-start">{post.data.title}</h3>
+                      <p class="text-gray-600 line-clamp-2 leading-relaxed">{post.data.summary}</p>
                     </div>
-                  </a>
-                </div>
+                  </div>
+                </a>
               ))}
             </div>
-            <div class="absolute right-0 top-0 bottom-8 w-32 pointer-events-none bg-gradient-to-l from-white to-transparent"></div>
+
+            <div class="hidden lg:flex absolute -right-12 top-1/2 -translate-y-1/2 z-10">
+              <button class="p-2 rounded-full bg-white shadow-md hover:shadow-lg transition-shadow">
+                <i class="bx bx-chevron-right text-2xl"></i>
+              </button>
+            </div>
           </div>
         </div>
       ))}
     </div>
   </Container>
 </Layout>
+
+<style>
+  @media (min-width: 1024px) {
+    .overflow-x-auto {
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+    .overflow-x-auto::-webkit-scrollbar {
+      display: none;
+    }
+  }
+</style>
