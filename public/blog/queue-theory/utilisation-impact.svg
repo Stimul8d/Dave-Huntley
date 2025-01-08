@@ -1,0 +1,89 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- Grid -->
+    <g stroke="#e5e7eb" stroke-width="1">
+        <!-- Vertical grid lines -->
+        <line x1="120" y1="50" x2="120" y2="400"/>
+        <line x1="260" y1="50" x2="260" y2="400"/>
+        <line x1="400" y1="50" x2="400" y2="400"/>
+        <line x1="540" y1="50" x2="540" y2="400"/>
+        <line x1="680" y1="50" x2="680" y2="400"/>
+    </g>
+
+    <!-- Axes -->
+    <g stroke="#000000" stroke-width="2">
+        <line x1="120" y1="400" x2="720" y2="400"/>  <!-- X axis -->
+        <line x1="120" y1="50" x2="120" y2="400"/>   <!-- Y axis -->
+    </g>
+
+    <!-- X axis labels -->
+    <g text-anchor="middle" font-family="system-ui" font-size="14">
+        <text x="120" y="430">0%</text>
+        <text x="260" y="430">25%</text>
+        <text x="400" y="430">50%</text>
+        <text x="540" y="430">75%</text>
+        <text x="680" y="430">100%</text>
+        <text x="400" y="460" font-weight="bold">System Utilisation</text>
+    </g>
+
+    <!-- Y axis labels -->
+    <g text-anchor="end" font-family="system-ui" font-size="14">
+        <text x="110" y="405">1 week</text>
+        <text x="110" y="330">2 weeks</text>
+        <text x="110" y="255">4 weeks</text>
+        <text x="110" y="180">8 weeks</text>
+        <text x="110" y="105">16 weeks</text>
+        <text x="110" y="70">∞</text>
+    </g>
+
+    <!-- Rotated Y axis title -->
+    <g transform="translate(30, 225)">
+        <text transform="rotate(-90)" text-anchor="middle" font-family="system-ui" font-size="14" font-weight="bold">
+            Time to Deliver Anything
+        </text>
+    </g>
+
+    <!-- The curve -->
+    <path d="M120 400 Q 260 395, 400 350 T 540 150 T 660 70" 
+          fill="none" 
+          stroke="#2563eb" 
+          stroke-width="3"/>
+
+    <!-- Danger zone highlight -->
+    <path d="M400 400 Q 440 380, 540 150 T 660 70 L 680 70 L 680 400 Z" 
+          fill="#ef4444" 
+          opacity="0.1"/>
+
+    <!-- Sweet spot -->
+    <g>
+        <circle cx="330" cy="380" r="6" fill="#22c55e"/>
+        <text x="340" y="365" font-family="system-ui" font-size="14" font-weight="bold">Sweet spot</text>
+        <text x="340" y="385" font-family="system-ui" font-size="12">(yes, really)</text>
+    </g>
+
+    <!-- "You are here" marker -->
+    <g>
+        <circle cx="610" cy="100" r="6" fill="#ef4444"/>
+        <text x="625" y="85" font-family="system-ui" font-size="14" font-weight="bold">You are here</text>
+        <text x="625" y="105" font-family="system-ui" font-size="12">(wondering why</text>
+        <text x="625" y="120" font-family="system-ui" font-size="12">nothing gets done)</text>
+    </g>
+
+    <!-- Warning zone annotation -->
+    <g>
+        <text x="440" y="280" font-family="system-ui" font-size="14" font-weight="bold" fill="#ef4444">Everything takes forever</text>
+        <text x="440" y="300" font-family="system-ui" font-size="12" fill="#ef4444">Small changes = weeks</text>
+        <text x="440" y="315" font-family="system-ui" font-size="12" fill="#ef4444">Big changes = months</text>
+    </g>
+
+    <!-- Title -->
+    <text x="400" y="30" 
+          font-family="system-ui" 
+          font-size="20" 
+          font-weight="bold" 
+          text-anchor="middle">
+        Why Your Team Feels Busy But Delivers Nothing
+    </text>
+</svg>

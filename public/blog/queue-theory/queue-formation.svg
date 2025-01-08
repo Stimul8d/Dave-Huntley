@@ -1,0 +1,51 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- Labels -->
+    <text x="400" y="30" font-family="system-ui" font-size="20" font-weight="bold" text-anchor="middle">
+        How Queues Form
+    </text>
+    
+    <!-- 50% Utilisation Section -->
+    <g transform="translate(0, 50)">
+        <text x="150" y="30" font-family="system-ui" font-size="16" font-weight="bold">50% Utilisation</text>
+        
+        <!-- Processing boxes -->
+        <rect x="100" y="50" width="600" height="80" fill="#f3f4f6"/>
+        
+        <!-- Work items flowing smoothly -->
+        <circle cx="150" cy="90" r="15" fill="#22c55e"/>
+        <circle cx="300" cy="90" r="15" fill="#22c55e"/>
+        <circle cx="450" cy="90" r="15" fill="#22c55e"/>
+        <circle cx="600" cy="90" r="15" fill="#22c55e"/>
+        
+        <text x="720" y="90" font-family="system-ui" font-size="14">Smooth flow</text>
+    </g>
+
+    <!-- 80% Utilisation Section -->
+    <g transform="translate(0, 250)">
+        <text x="150" y="30" font-family="system-ui" font-size="16" font-weight="bold">80% Utilisation</text>
+        
+        <!-- Processing boxes -->
+        <rect x="100" y="50" width="600" height="80" fill="#f3f4f6"/>
+        
+        <!-- Queue forming -->
+        <circle cx="150" cy="90" r="15" fill="#ef4444"/>
+        <circle cx="180" cy="90" r="15" fill="#ef4444"/>
+        <circle cx="210" cy="90" r="15" fill="#ef4444"/>
+        <circle cx="240" cy="90" r="15" fill="#ef4444"/>
+        <circle cx="270" cy="90" r="15" fill="#ef4444"/>
+        <circle cx="400" cy="90" r="15" fill="#ef4444"/>
+        <circle cx="430" cy="90" r="15" fill="#ef4444"/>
+        <circle cx="460" cy="90" r="15" fill="#ef4444"/>
+        <circle cx="600" cy="90" r="15" fill="#ef4444"/>
+        
+        <text x="720" y="90" font-family="system-ui" font-size="14">Queues form</text>
+    </g>
+
+    <!-- Annotations -->
+    <text x="400" y="450" font-family="system-ui" font-size="14" text-anchor="middle" fill="#ef4444">
+        Small variations compound into large queues
+    </text>
+</svg>

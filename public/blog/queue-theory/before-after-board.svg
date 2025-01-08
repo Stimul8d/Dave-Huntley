@@ -1,0 +1,89 @@
+<svg viewBox="0 0 800 550" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="550" fill="#ffffff"/>
+    
+    <!-- Title -->
+    <text x="400" y="40" font-family="system-ui" font-size="20" font-weight="bold" text-anchor="middle">
+        Reality Check: Your Kanban Board
+    </text>
+
+    <!-- Before Board -->
+    <g transform="translate(0,80)">
+        <text x="120" y="0" font-family="system-ui" font-size="16" font-weight="bold">Before: "Everything's Important"</text>
+        
+        <!-- Columns -->
+        <g>
+            <rect x="120" y="20" width="160" height="140" fill="#f3f4f6" stroke="#e5e7eb"/>
+            <text x="200" y="40" font-family="system-ui" font-size="14" text-anchor="middle">To Do</text>
+            
+            <rect x="290" y="20" width="160" height="140" fill="#f3f4f6" stroke="#e5e7eb"/>
+            <text x="370" y="40" font-family="system-ui" font-size="14" text-anchor="middle">In Progress</text>
+            
+            <rect x="460" y="20" width="160" height="140" fill="#f3f4f6" stroke="#e5e7eb"/>
+            <text x="540" y="40" font-family="system-ui" font-size="14" text-anchor="middle">Review</text>
+        </g>
+        
+        <!-- Cards - deliberately messy -->
+        <g>
+            <!-- To Do pile -->
+            <rect x="130" y="50" width="140" height="15" fill="#ef4444" opacity="0.8"/>
+            <rect x="130" y="70" width="140" height="15" fill="#ef4444" opacity="0.8"/>
+            <rect x="130" y="90" width="140" height="15" fill="#ef4444" opacity="0.8"/>
+            <rect x="130" y="110" width="140" height="15" fill="#ef4444" opacity="0.8"/>
+            <rect x="130" y="130" width="140" height="15" fill="#ef4444" opacity="0.8"/>
+            
+            <!-- In Progress chaos -->
+            <rect x="300" y="50" width="140" height="15" fill="#ef4444" opacity="0.8"/>
+            <rect x="300" y="70" width="140" height="15" fill="#ef4444" opacity="0.8"/>
+            <rect x="300" y="90" width="140" height="15" fill="#ef4444" opacity="0.8"/>
+            <rect x="300" y="110" width="140" height="15" fill="#ef4444" opacity="0.8"/>
+            <rect x="300" y="130" width="140" height="15" fill="#ef4444" opacity="0.8"/>
+            
+            <!-- Review backlog -->
+            <rect x="470" y="50" width="140" height="15" fill="#ef4444" opacity="0.8"/>
+            <rect x="470" y="70" width="140" height="15" fill="#ef4444" opacity="0.8"/>
+            <rect x="470" y="90" width="140" height="15" fill="#ef4444" opacity="0.8"/>
+        </g>
+    </g>
+
+    <!-- After Board -->
+    <g transform="translate(0,300)">
+        <text x="120" y="0" font-family="system-ui" font-size="16" font-weight="bold">After: Actually Managing Flow</text>
+        
+        <!-- Columns with WIP limits -->
+        <g>
+            <rect x="120" y="20" width="160" height="140" fill="#f3f4f6" stroke="#e5e7eb"/>
+            <text x="200" y="40" font-family="system-ui" font-size="14" text-anchor="middle">To Do</text>
+            
+            <rect x="290" y="20" width="160" height="140" fill="#f3f4f6" stroke="#e5e7eb"/>
+            <text x="370" y="40" font-family="system-ui" font-size="14" text-anchor="middle">In Progress (2)</text>
+            
+            <rect x="460" y="20" width="160" height="140" fill="#f3f4f6" stroke="#e5e7eb"/>
+            <text x="540" y="40" font-family="system-ui" font-size="14" text-anchor="middle">Review (1)</text>
+        </g>
+        
+        <!-- Cards - controlled flow -->
+        <g>
+            <!-- To Do - prioritised -->
+            <rect x="130" y="50" width="140" height="15" fill="#22c55e" opacity="0.8"/>
+            <rect x="130" y="70" width="140" height="15" fill="#22c55e" opacity="0.8"/>
+            <rect x="130" y="90" width="140" height="15" fill="#22c55e" opacity="0.8"/>
+            
+            <!-- In Progress - limited -->
+            <rect x="300" y="50" width="140" height="15" fill="#22c55e" opacity="0.8"/>
+            <rect x="300" y="70" width="140" height="15" fill="#22c55e" opacity="0.8"/>
+            
+            <!-- Review - single item -->
+            <rect x="470" y="50" width="140" height="15" fill="#22c55e" opacity="0.8"/>
+        </g>
+        
+        <!-- WIP limit indicators -->
+        <rect x="290" y="10" width="160" height="5" fill="#22c55e"/>
+        <rect x="460" y="10" width="160" height="5" fill="#22c55e"/>
+    </g>
+
+    <!-- Key insight -->
+    <text x="400" y="520" font-family="system-ui" font-size="16" text-anchor="middle" fill="#ef4444">
+        Same team, different approach, actual delivery
+    </text>
+</svg>

@@ -1,0 +1,62 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- Title -->
+    <text x="400" y="40" font-family="system-ui" font-size="20" font-weight="bold" text-anchor="middle">
+        Sequential vs Parallel: The Harsh Reality
+    </text>
+
+    <!-- Sequential Work -->
+    <g transform="translate(0,100)">
+        <text x="120" y="0" font-family="system-ui" font-size="16" font-weight="bold">Sequential</text>
+        
+        <!-- Timeline block -->
+        <rect x="150" y="20" width="500" height="100" fill="#f3f4f6"/>
+        
+        <!-- Tasks -->
+        <rect x="150" y="40" width="150" height="60" fill="#22c55e"/>
+        <rect x="300" y="40" width="150" height="60" fill="#22c55e"/>
+        <rect x="450" y="40" width="150" height="60" fill="#22c55e"/>
+        
+        <!-- Completion markers -->
+        <text x="225" y="75" font-family="system-ui" font-size="14" fill="white">Done</text>
+        <text x="375" y="75" font-family="system-ui" font-size="14" fill="white">Done</text>
+        <text x="525" y="75" font-family="system-ui" font-size="14" fill="white">Done</text>
+        
+        <text x="670" y="75" font-family="system-ui" font-size="14">3 weeks</text>
+    </g>
+
+    <!-- Parallel Work -->
+    <g transform="translate(0,300)">
+        <text x="120" y="0" font-family="system-ui" font-size="16" font-weight="bold">Parallel</text>
+        
+        <!-- Timeline block -->
+        <rect x="150" y="20" width="500" height="100" fill="#f3f4f6"/>
+        
+        <!-- Tasks with context switching -->
+        <rect x="150" y="30" width="480" height="25" fill="#ef4444" opacity="0.3"/>
+        <rect x="150" y="60" width="490" height="25" fill="#ef4444" opacity="0.3"/>
+        <rect x="150" y="90" width="500" height="25" fill="#ef4444" opacity="0.3"/>
+        
+        <!-- Progress indicators -->
+        <rect x="150" y="30" width="100" height="25" fill="#ef4444"/>
+        <rect x="270" y="30" width="80" height="25" fill="#ef4444"/>
+        <rect x="370" y="30" width="120" height="25" fill="#ef4444"/>
+        
+        <rect x="150" y="60" width="80" height="25" fill="#ef4444"/>
+        <rect x="250" y="60" width="90" height="25" fill="#ef4444"/>
+        <rect x="360" y="60" width="140" height="25" fill="#ef4444"/>
+        
+        <rect x="150" y="90" width="70" height="25" fill="#ef4444"/>
+        <rect x="240" y="90" width="100" height="25" fill="#ef4444"/>
+        <rect x="360" y="90" width="160" height="25" fill="#ef4444"/>
+        
+        <text x="670" y="75" font-family="system-ui" font-size="14">6+ weeks</text>
+    </g>
+
+    <!-- Bottom annotation -->
+    <text x="400" y="450" font-family="system-ui" font-size="16" text-anchor="middle" fill="#ef4444">
+        Parallel work means nothing actually finishes
+    </text>
+</svg>

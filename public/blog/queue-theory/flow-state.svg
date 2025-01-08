@@ -1,0 +1,46 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- Title -->
+    <text x="400" y="40" font-family="system-ui" font-size="20" font-weight="bold" text-anchor="middle">
+        What Actually Happens to Your Brain
+    </text>
+
+    <!-- Uninterrupted Focus -->
+    <g transform="translate(0,100)">
+        <text x="150" y="0" font-family="system-ui" font-size="16" font-weight="bold">Uninterrupted</text>
+        
+        <!-- Base cognitive load -->
+        <rect x="150" y="20" width="500" height="80" fill="#f3f4f6"/>
+        
+        <!-- Productive work -->
+        <path d="M150 100 Q 400 20, 650 20" 
+              fill="none" 
+              stroke="#22c55e" 
+              stroke-width="4"/>
+              
+        <text x="670" y="40" font-family="system-ui" font-size="14">Deep work</text>
+    </g>
+
+    <!-- Interrupted Work -->
+    <g transform="translate(0,300)">
+        <text x="150" y="0" font-family="system-ui" font-size="16" font-weight="bold">Reality</text>
+        
+        <!-- Base cognitive load -->
+        <rect x="150" y="20" width="500" height="80" fill="#f3f4f6"/>
+        
+        <!-- Jagged productivity -->
+        <path d="M150 100 L 250 60 L 250 100 L 350 40 L 350 100 L 450 50 L 450 100 L 550 70 L 550 100 L 650 80" 
+              fill="none" 
+              stroke="#ef4444" 
+              stroke-width="4"/>
+              
+        <text x="670" y="90" font-family="system-ui" font-size="14">Constant reset</text>
+    </g>
+
+    <!-- Annotation -->
+    <text x="400" y="450" font-family="system-ui" font-size="16" text-anchor="middle" fill="#ef4444">
+        Every interruption resets your mental state
+    </text>
+</svg>
