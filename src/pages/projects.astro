@@ -1,0 +1,81 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+
+---
+
+<Layout title="Projects">
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">Projects</Fragment>
+      <Fragment slot="desc">Some ideas deserve to be challenged. These projects tackle conventional wisdom head-on, whether it's questioning where we get our insights from or making invisible problems impossible to ignore.</Fragment>
+    </Sectionhead>
+
+    <div class="flex flex-col gap-24 mx-auto max-w-6xl mt-16">
+      
+      {/* OpenMind */}
+      <section class="grid grid-cols-12 gap-12">
+        <div class="col-span-12 lg:col-span-6">
+          <img 
+            src="/Dave-Huntley/projects/OpenMind.png" 
+            alt="OpenMind interface showing a philosophical quote with floating geometric shapes"
+            class="rounded-lg shadow-lg w-full"
+          />
+        </div>
+        
+        <div class="col-span-12 lg:col-span-6">
+          <h2 class="text-3xl font-bold text-slate-900 mb-2">OpenMind</h2>
+          <p class="text-xl text-slate-600 mb-6">A better class of wisdom</p>
+
+          <p class="text-slate-700 mb-4">Look past the Instagram philosophers and motivational posters. OpenMind collects insights that have actually been tested - from survival stories to indigenous knowledge. Each quote comes with proper context about why it matters and how it's been proven to work.</p>
+          
+          <div class="flex flex-wrap gap-2 mb-8">
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">Mental Models</span>
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">Indigenous Wisdom</span>
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">Survival Stories</span>
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">Sport Psychology</span>
+          </div>
+
+          <div class="flex gap-4 items-center">
+            <a href="https://stimul8d.github.io/OpenMind/" class="px-6 py-2.5 bg-slate-900 text-white hover:bg-slate-800 rounded-md transition-colors">View Live</a>
+            <a href="https://github.com/stimul8d/OpenMind" class="px-6 py-2.5 text-slate-600 hover:text-slate-900 transition-colors">Source →</a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="border-slate-200" />
+
+      {/* Kill Clock */}
+      <section class="grid grid-cols-12 gap-12">
+        <div class="col-span-12 lg:col-span-6">
+          <img 
+            src="/Dave-Huntley/projects/KillClock.png" 
+            alt="Animal Kill Clock dashboard showing real-time statistics"
+            class="rounded-lg shadow-lg w-full"
+          />
+        </div>
+        
+        <div class="col-span-12 lg:col-span-6">
+          <h2 class="text-3xl font-bold text-slate-900 mb-2">Animal Kill Clock</h2>
+          <p class="text-xl text-slate-600 mb-6">Making the invisible visible</p>
+
+          <p class="text-slate-700 mb-4">Sometimes numbers tell the story better than words ever could. This real-time counter shows the true scale of animal agriculture, built specifically for street demonstrations and public events. Works offline, adapts to any screen size, and hits hard with pure data.</p>
+          
+          <div class="flex flex-wrap gap-2 mb-8">
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">Animal Rights</span>
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">Data Visualisation</span>
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">Activism</span>
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">PWA</span>
+          </div>
+
+          <div class="flex gap-4 items-center">
+            <a href="https://stimul8d.github.io/ARA-Kill-Clock/" class="px-6 py-2.5 bg-slate-900 text-white hover:bg-slate-800 rounded-md transition-colors">View Live</a>
+            <a href="https://github.com/stimul8d/ARA-Kill-Clock" class="px-6 py-2.5 text-slate-600 hover:text-slate-900 transition-colors">Source →</a>
+          </div>
+        </div>
+      </section>
+      
+    </div>
+  </Container>
+</Layout>
