@@ -1,6 +1,6 @@
 ---
 title: "Know Your True North"
-category: "Practical Leadership"
+category: "Values & Ethics"
 order: 1
 tags: ["leadership", "values", "ethics", "decision making"]
 summary: "Most mission statements are just noise. Here's why what you remove matters more than what you add, and why your toughest decisions are your most revealing ones."

@@ -1,6 +1,6 @@
 ---
 title: "Truth About Success"
-category: "Practical Leadership"
+category: "Personal Growth"
 order: 6
 tags: ["leadership", "mindset", "growth"]
 summary: "Success isn't what you think it is. Here's why chasing the wrong metrics makes you miserable and what actually matters for long-term achievement."

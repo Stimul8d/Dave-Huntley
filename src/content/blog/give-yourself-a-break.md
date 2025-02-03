@@ -1,6 +1,6 @@
 ---
   title: "Give Yourself a Break"
-  category: "Practical Leadership"
+  category: "Personal Growth"
   order: 5
   tags: ["growth", "mindset", "imposter-syndrome"]
   summary: "Your biggest critic is staring back at you in the mirror. Here's why you're better than you think, and why that matters more than you realise."

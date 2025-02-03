@@ -1,6 +1,6 @@
 ---
 title: "Trust is a Verb"
-category: "Practical Leadership"
+category: "Values & Ethics"
 order: 7
 tags: ["leadership", "culture", "mindset"]
 summary: "The idea that trust must be earned is misguided. Here's why trust is something you choose to do, not something you wait to materialise."

@@ -1,6 +1,6 @@
 ---
   title: "You Can't Sell Agile"
-  category: "Making Agile Work"
+  category: "Organisational Culture"
   order: 1
   tags: ["agile", "transformation", "change management", "leadership"]
   summary: "Trying to convince people to 'go agile' is a fool's errand. Here's why most agile transformations fail, and what to do instead of selling frameworks and processes."

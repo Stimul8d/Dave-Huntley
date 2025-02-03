@@ -1,6 +1,6 @@
 ---
   title: "Good Metrics, Bad Metrics"
-  category: "Engineering Excellence"
+  category: "Organisational Culture"
   order: 2
   tags: ["metrics", "leadership", "transformation", "lean"]
   summary: "Measuring everything is a trap that costs more than you think. Here's how to measure what actually matters."

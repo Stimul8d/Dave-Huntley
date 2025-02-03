@@ -1,6 +1,6 @@
 ---
   title: "Autonomy, Mastery, Purpose"
-  category: "Practical Leadership"
+  category: "Organisational Culture"
   order: 2
   tags: ["agile", "team building", "motivation", "organisational change"]
   summary: "Dan Pink nailed what drives us. Here's why most agile transformations miss the point, and what actually drives team performance - hint: it's not your process."

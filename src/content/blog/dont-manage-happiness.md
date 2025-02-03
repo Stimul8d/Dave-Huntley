@@ -1,6 +1,6 @@
 ---
   title: "Don't Manage for Happiness"
-  category: "Practical Leadership"
+  category: "Personal Growth"
   order: 3
   tags: ["leadership", "management", "culture"]
   summary: "The modern obsession with managing for happiness is causing more harm than good. Here's why we should focus on discipline, objectivity and composure instead."

@@ -1,6 +1,6 @@
 ---
   title: "Be Professional"
-  category: "Practical Leadership"
+  category: "Values & Ethics"
   order: 4
   tags: ["leadership", "culture", "authenticity"]
   summary: "Why do we equate professionalism with how we dress? A sharp suit and polished shoes don't automatically make you professional - your actions and behaviours do."

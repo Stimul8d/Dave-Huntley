@@ -5,7 +5,9 @@ import { getCollection } from "astro:content";
 
 const posts = await getCollection('blog', ({ data }) => !data.draft);
 
-const practical = posts.filter(post => post.data.category === "Practical Leadership").sort((a, b) => a.data.order - b.data.order);
+const values = posts.filter(post => post.data.category === "Values & Ethics").sort((a, b) => a.data.order - b.data.order);
+const growth = posts.filter(post => post.data.category === "Personal Growth").sort((a, b) => a.data.order - b.data.order);
+const culture = posts.filter(post => post.data.category === "Organisational Culture").sort((a, b) => a.data.order - b.data.order);
 const agile = posts.filter(post => post.data.category === "Making Agile Work").sort((a, b) => a.data.order - b.data.order);
 const lean = posts.filter(post => post.data.category === "Lean Thinking").sort((a, b) => a.data.order - b.data.order);
 const engineering = posts.filter(post => post.data.category === "Engineering Excellence").sort((a, b) => a.data.order - b.data.order);
@@ -16,9 +18,19 @@ const engineering = posts.filter(post => post.data.category === "Engineering Exc
     <div class="py-8">
       {[
         { 
-          title: "Practical Leadership",
-          description: "Leadership stripped of buzzwords and corporate theatre. Real insights about what actually works, backed by experience rather than theory.",
-          posts: practical 
+          title: "Values & Ethics",
+          description: "Core principles that guide effective leadership and decision making. Not theory or platitudes, but tested approaches that build genuine trust.",
+          posts: values 
+        },
+        { 
+          title: "Personal Growth",
+          description: "Practical insights on developing emotional intelligence, self-awareness and resilience. Real talk about the human side of leadership.",
+          posts: growth 
+        },
+        { 
+          title: "Organisational Culture",
+          description: "How to build environments where people and teams thrive. Concrete approaches to motivation, metrics and meaningful change.",
+          posts: culture 
         },
         { 
           title: "Making Agile Work",
