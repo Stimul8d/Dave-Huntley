@@ -8,6 +8,7 @@ const posts = await getCollection('blog', ({ data }) => !data.draft);
 const values = posts.filter(post => post.data.category === "Values & Ethics").sort((a, b) => a.data.order - b.data.order);
 const growth = posts.filter(post => post.data.category === "Personal Growth").sort((a, b) => a.data.order - b.data.order);
 const culture = posts.filter(post => post.data.category === "Organisational Culture").sort((a, b) => a.data.order - b.data.order);
+const code = posts.filter(post => post.data.category === "Code & Craft").sort((a, b) => a.data.order - b.data.order);
 const agile = posts.filter(post => post.data.category === "Making Agile Work").sort((a, b) => a.data.order - b.data.order);
 const lean = posts.filter(post => post.data.category === "Lean Thinking").sort((a, b) => a.data.order - b.data.order);
 const engineering = posts.filter(post => post.data.category === "Engineering Excellence").sort((a, b) => a.data.order - b.data.order);
@@ -31,6 +32,11 @@ const engineering = posts.filter(post => post.data.category === "Engineering Exc
           title: "Organisational Culture",
           description: "How to build environments where people and teams thrive. Concrete approaches to motivation, metrics and meaningful change.",
           posts: culture 
+        },
+        { 
+          title: "Code & Craft",
+          description: "Deep dives into programming languages - their philosophies, pitfalls and hidden powers. Real engineering insight beyond the syntax.",
+          posts: code 
         },
         { 
           title: "Making Agile Work",

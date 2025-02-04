@@ -3,7 +3,7 @@ import { z, defineCollection } from 'astro:content';
 const blog = defineCollection({
   schema: z.object({
     title: z.string(),
-    category: z.enum(['Values & Ethics', 'Personal Growth', 'Organisational Culture', 'Making Agile Work', 'Engineering Excellence', 'Lean Thinking']),
+    category: z.enum(['Values & Ethics', 'Personal Growth', 'Organisational Culture', 'Making Agile Work', 'Engineering Excellence', 'Lean Thinking', 'Code & Craft']),
     subcategory: z.string().optional(),
     order: z.number(),
     tags: z.array(z.string()).default([]),
