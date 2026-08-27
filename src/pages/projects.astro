@@ -9,11 +9,78 @@ import Sectionhead from "@components/sectionhead.astro";
   <Container>
     <Sectionhead>
       <Fragment slot="title">Projects</Fragment>
-      <Fragment slot="desc">Some ideas deserve to be challenged. These projects tackle conventional wisdom head-on, whether it's questioning where we get our insights from or making invisible problems impossible to ignore.</Fragment>
+      <Fragment slot="desc">Some ideas deserve to be challenged, some problems just need fixing. A Mac that finally explains why it's slow, a card game that needs nothing but a phone, wisdom worth keeping, and numbers that are hard to look away from.</Fragment>
     </Sectionhead>
 
     <div class="flex flex-col gap-24 mx-auto max-w-6xl mt-16">
       
+      {/* ProcWatch */}
+      <section class="grid grid-cols-12 gap-12">
+        <div class="col-span-12 lg:col-span-6">
+          <img 
+            src="/Dave-Huntley/projects/ProcWatch.png" 
+            alt="The ProcWatch panel hanging from the macOS menu bar, flagging a Gradle daemon that has been at 187% for three minutes"
+            class="rounded-lg shadow-lg w-full"
+          />
+        </div>
+        
+        <div class="col-span-12 lg:col-span-6">
+          <h2 class="text-3xl font-bold text-slate-900 mb-2">ProcWatch</h2>
+          <p class="text-xl text-slate-600 mb-6">Why is your Mac slow?</p>
+
+          <p class="text-slate-700 mb-4">Activity Monitor lists what's running. It doesn't tell you what's wrong. ProcWatch sits in the menu bar watching for the things that actually make a machine crawl: something flat out for minutes rather than seconds, memory pressure that won't let up, dev servers still holding ports days after the terminal closed.</p>
+
+          <p class="text-slate-700 mb-4">The difference is that it waits. A compile is meant to peg a core, so it gets three minutes before anyone hears about it. A language server gets forty-five seconds. And it names things properly: not <span class="font-mono text-sm">node</span>, but the dev server, which project it belongs to and which port it's sat on. Then it kills the whole tree, including the children npm leaves behind.</p>
+          
+          <div class="flex flex-wrap gap-2 mb-8">
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">macOS</span>
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">Swift</span>
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">Developer Tools</span>
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">Menu Bar</span>
+          </div>
+
+          <div class="flex gap-4 items-center">
+            <a href="https://stimul8d.github.io/procwatch/" class="px-6 py-2.5 bg-slate-900 text-white hover:bg-slate-800 rounded-md transition-colors">View Live</a>
+            <a href="https://github.com/stimul8d/procwatch" class="px-6 py-2.5 text-slate-600 hover:text-slate-900 transition-colors">Source →</a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="border-slate-200" />
+
+      {/* Cards */}
+      <section class="grid grid-cols-12 gap-12">
+        <div class="col-span-12 lg:col-span-6">
+          <img 
+            src="/Dave-Huntley/projects/Cards.png" 
+            alt="The Cards join screen: a name field, a button to start a new game, and a room code box"
+            class="rounded-lg shadow-lg w-full"
+          />
+        </div>
+        
+        <div class="col-span-12 lg:col-span-6">
+          <h2 class="text-3xl font-bold text-slate-900 mb-2">Cards</h2>
+          <p class="text-xl text-slate-600 mb-6">A terrible game for terrible friends</p>
+
+          <p class="text-slate-700 mb-4">Cards Against Humanity without the box. One person starts a game and reads the room code out, everyone else joins from whatever phone is already in their hand. No accounts, no app to install, nothing to pass around the table.</p>
+
+          <p class="text-slate-700 mb-4">Card content comes from the official sets, released by their authors under CC BY-NC-SA, plus the community packs. Not affiliated with Cards Against Humanity LLC, and no relation to the several apps that want your email address before they'll let you play.</p>
+          
+          <div class="flex flex-wrap gap-2 mb-8">
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">Party Game</span>
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">Multiplayer</span>
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">Room Codes</span>
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">Mobile First</span>
+          </div>
+
+          <div class="flex gap-4 items-center">
+            <a href="https://github.com/stimul8d/cards" class="px-6 py-2.5 bg-slate-900 text-white hover:bg-slate-800 rounded-md transition-colors">Source →</a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="border-slate-200" />
+
       {/* OpenMind */}
       <section class="grid grid-cols-12 gap-12">
         <div class="col-span-12 lg:col-span-6">
