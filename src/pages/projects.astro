@@ -9,11 +9,45 @@ import Sectionhead from "@components/sectionhead.astro";
   <Container>
     <Sectionhead>
       <Fragment slot="title">Projects</Fragment>
-      <Fragment slot="desc">Some ideas deserve to be challenged, some problems just need fixing. A screen recorder that never phones home, a Mac that finally explains why it's slow, a card game that needs nothing but a phone, wisdom worth keeping, and numbers that are hard to look away from.</Fragment>
+      <Fragment slot="desc">Some ideas deserve to be challenged, some problems just need fixing. A decade of commits played back as light, a screen recorder that never phones home, a Mac that finally explains why it's slow, a card game that needs nothing but a phone, wisdom worth keeping, and numbers that are hard to look away from.</Fragment>
     </Sectionhead>
 
     <div class="flex flex-col gap-24 mx-auto max-w-6xl mt-16">
       
+      {/* Prism */}
+      <section class="grid grid-cols-12 gap-12">
+        <div class="col-span-12 lg:col-span-6">
+          <img 
+            src="/Dave-Huntley/projects/Prism.png" 
+            alt="Prism showing the vite repository as a glowing tree of files, with contributor names scattered around it"
+            class="rounded-lg shadow-lg w-full"
+          />
+        </div>
+        
+        <div class="col-span-12 lg:col-span-6">
+          <h2 class="text-3xl font-bold text-slate-900 mb-2">Prism</h2>
+          <p class="text-xl text-slate-600 mb-6">A decade of commits, as light.</p>
+
+          <p class="text-slate-700 mb-4">Git history is a list. Thousands of rows nobody scrolls, and the question people actually ask — what happened to this codebase, and who was here — is the one a log answers worst. Prism plays it back instead. The repository sits at the centre, folders and files grow out of it as they get written, and everyone who has ever committed hangs off the root, firing a beam at whatever they just touched.</p>
+
+          <p class="text-slate-700 mb-4">Point it at a folder of repositories rather than a single one and it finds them all, then draws them on one timeline, each with its own root and its own share of the ring. It records straight to MP4, which is rather the point: <strong>the output is something you can put in front of people</strong>, not another window you have to demo live. Two dimensions or three from the same simulation, and about seventy controls for the parts you will want to argue with.</p>
+          
+          <div class="flex flex-wrap gap-2 mb-8">
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">macOS</span>
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">Electron</span>
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">three.js</span>
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">WebGL</span>
+            <span class="bg-slate-100 px-3 py-1 rounded text-slate-700 text-sm">Git</span>
+          </div>
+
+          <div class="flex gap-4 items-center">
+            <a href="https://github.com/stimul8d/prism" class="px-6 py-2.5 bg-slate-900 text-white hover:bg-slate-800 rounded-md transition-colors">Source</a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="border-slate-200" />
+
       {/* Reel */}
       <section class="grid grid-cols-12 gap-12">
         <div class="col-span-12 lg:col-span-6">
